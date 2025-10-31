@@ -1,0 +1,147 @@
+import { useEffect, useRef, useState } from 'react';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Area, AreaChart } from 'recharts';
+import { vietnamData } from '@/data/vietnamData';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
+
+export const SlidePopulation = () => {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [counter, setCounter] = useState(28);
+
+  useEffect(() => {
+    if (!containerRef.current) return;
+
+    const ctx = gsap.context(() => {
+      // Counter animation
+      gsap.to({ value: 28 }, {
+        value: 101,
+        duration: 2,
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: 'top center',
+        },
+        onUpdate: function() {
+          setCounter(Math.round(this.targets()[0].value));
+        },
+        ease: 'power2.out'
+      });
+
+      // Title animation
+      gsap.from('.pop-title', {
+        opacity: 0,
+        y: 50,
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: 'top center',
+        },
+        duration: 1,
+        ease: 'power3.out'
+      });
+
+      // Chart animation
+      gsap.from('.pop-chart', {
+        opacity: 0,
+        scale: 0.95,
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: 'top center',
+        },
+        duration: 1.2,
+        delay: 0.3,
+        ease: 'power2.out'
+      });
+    }, containerRef);
+
+    return () => ctx.revert();
+  }, []);
+
+  const chartData = vietnamData.filter((_, i) => i % 5 === 0);
+
+  return (
+    <div ref={containerRef} className="min-h-screen flex items-center justify-center py-20 px-6">
+      <div className="max-w-6xl w-full">
+        <div className="text-center mb-12">
+          <h2 className="pop-title font-display text-4xl md:text-6xl font-bold mb-4">
+            Cơ Thể <span className="text-primary">Rồng</span>: Tăng Trưởng Dân Số
+          </h2>
+          <div className="flex items-center justify-center gap-4 mt-8">
+            <div className="text-center">
+              <div className="text-5xl md:text-7xl font-bold text-primary dragon-glow">
+                {counter}
+              </div>
+              <p className="text-muted-foreground mt-2">triệu người (2024)</p>
+            </div>
+            <div className="text-4xl text-muted-foreground">←</div>
+            <div className="text-center">
+              <div className="text-3xl md:text-5xl font-bold text-secondary">
+                28
+              </div>
+              <p className="text-muted-foreground mt-2">triệu người (1955)</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="pop-chart bg-card/50 backdrop-blur-sm p-8 rounded-2xl border border-border shadow-[0_0_50px_rgba(0,0,0,0.3)]">
+          <ResponsiveContainer width="100%" height={400}>
+            <AreaChart data={chartData}>
+              <defs>
+                <linearGradient id="populationGradient" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="5%" stopColor="hsl(var(--primary))" stopOpacity={0.8}/>
+                  <stop offset="95%" stopColor="hsl(var(--primary))" stopOpacity={0}/>
+                </linearGradient>
+              </defs>
+              <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" opacity={0.3} />
+              <XAxis 
+                dataKey="year" 
+                stroke="hsl(var(--muted-foreground))"
+                tick={{ fill: 'hsl(var(--muted-foreground))' }}
+              />
+              <YAxis 
+                stroke="hsl(var(--muted-foreground))"
+                tick={{ fill: 'hsl(var(--muted-foreground))' }}
+                tickFormatter={(value) => `${(value / 1000000).toFixed(0)}M`}
+              />
+              <Tooltip 
+                contentStyle={{ 
+                  backgroundColor: 'hsl(var(--card))',
+                  border: '1px solid hsl(var(--border))',
+                  borderRadius: '8px',
+                  color: 'hsl(var(--foreground))'
+                }}
+                formatter={(value: number) => [
+                  `${(value / 1000000).toFixed(1)} triệu`,
+                  'Dân số'
+                ]}
+              />
+              <Area 
+                type="monotone" 
+                dataKey="population" 
+                stroke="hsl(var(--primary))" 
+                strokeWidth={3}
+                fill="url(#populationGradient)"
+                animationDuration={2000}
+              />
+            </AreaChart>
+          </ResponsiveContainer>
+
+          <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="bg-muted/30 p-4 rounded-lg text-center">
+              <div className="text-2xl font-bold text-primary">3.09%</div>
+              <p className="text-sm text-muted-foreground">Tăng trưởng cao nhất (1955)</p>
+            </div>
+            <div className="bg-muted/30 p-4 rounded-lg text-center">
+              <div className="text-2xl font-bold text-accent">0.63%</div>
+              <p className="text-sm text-muted-foreground">Tăng trưởng hiện tại (2024)</p>
+            </div>
+            <div className="bg-muted/30 p-4 rounded-lg text-center">
+              <div className="text-2xl font-bold text-secondary">×3.6</div>
+              <p className="text-sm text-muted-foreground">Gấp 3.6 lần trong 70 năm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
