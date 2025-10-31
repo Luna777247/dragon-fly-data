@@ -1,8 +1,12 @@
 import { useState, useEffect, useRef } from 'react';
 import { SlideHero } from '@/components/slides/SlideHero';
 import { SlidePopulation } from '@/components/slides/SlidePopulation';
+import { SlideDemographics } from '@/components/slides/SlideDemographics';
 import { SlideEconomy } from '@/components/slides/SlideEconomy';
+import { SlideEmployment } from '@/components/slides/SlideEmployment';
 import { SlideSociety } from '@/components/slides/SlideSociety';
+import { SlideUrbanization } from '@/components/slides/SlideUrbanization';
+import { SlideEnvironment } from '@/components/slides/SlideEnvironment';
 import { SlideConclusion } from '@/components/slides/SlideConclusion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -14,8 +18,12 @@ const Index = () => {
 
   const slides = [
     { component: SlidePopulation, title: 'Dân Số' },
+    { component: SlideDemographics, title: 'Nhân Khẩu' },
     { component: SlideEconomy, title: 'Kinh Tế' },
+    { component: SlideEmployment, title: 'Việc Làm' },
     { component: SlideSociety, title: 'Xã Hội' },
+    { component: SlideUrbanization, title: 'Đô Thị' },
+    { component: SlideEnvironment, title: 'Môi Trường' },
     { component: SlideConclusion, title: 'Kết Luận' },
   ];
 
