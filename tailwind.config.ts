@@ -96,6 +96,22 @@ export default {
           "0%": { opacity: "0" },
           "100%": { opacity: "1" }
         },
+        "slideInFromRight": {
+          "0%": { opacity: "0", transform: "translateX(100px)" },
+          "100%": { opacity: "1", transform: "translateX(0)" }
+        },
+        "slideInFromLeft": {
+          "0%": { opacity: "0", transform: "translateX(-100px)" },
+          "100%": { opacity: "1", transform: "translateX(0)" }
+        },
+        "slideOutToLeft": {
+          "0%": { opacity: "1", transform: "translateX(0)" },
+          "100%": { opacity: "0", transform: "translateX(-100px)" }
+        },
+        "slideOutToRight": {
+          "0%": { opacity: "1", transform: "translateX(0)" },
+          "100%": { opacity: "0", transform: "translateX(100px)" }
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -104,6 +120,10 @@ export default {
         "slide-up": "slide-up 0.8s ease-out",
         "scale-in": "scale-in 0.5s ease-out",
         "dragon-fly": "dragon-fly 20s linear infinite",
+        "slideInFromRight": "slideInFromRight 0.7s ease-out",
+        "slideInFromLeft": "slideInFromLeft 0.7s ease-out",
+        "slideOutToLeft": "slideOutToLeft 0.7s ease-out",
+        "slideOutToRight": "slideOutToRight 0.7s ease-out",
       },
     },
   },
