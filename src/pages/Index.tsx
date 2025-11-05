@@ -6,6 +6,10 @@ import { SlideBirthDeath } from '@/components/slides/SlideBirthDeath';
 import { SlideUrbanization } from '@/components/slides/SlideUrbanization';
 import { SlideEconomy } from '@/components/slides/SlideEconomy';
 import { SlideEmployment } from '@/components/slides/SlideEmployment';
+import { SlideEducation } from '@/components/slides/SlideEducation';
+import { SlideTrade } from '@/components/slides/SlideTrade';
+import { SlideRegionalDensity } from '@/components/slides/SlideRegionalDensity';
+import { SlideMigration } from '@/components/slides/SlideMigration';
 import { SlideSociety } from '@/components/slides/SlideSociety';
 import { SlideEnvironment } from '@/components/slides/SlideEnvironment';
 import { SlideRegional } from '@/components/slides/SlideRegional';
@@ -30,8 +34,12 @@ const Index = () => {
     { component: SlideDemographics, title: 'Nhân Khẩu' },
     { component: SlideBirthDeath, title: 'Sinh Tử' },
     { component: SlideUrbanization, title: 'Đô Thị' },
+    { component: SlideMigration, title: 'Di Cư' },
+    { component: SlideRegionalDensity, title: 'Phân Bố Vùng' },
     { component: SlideEconomy, title: 'Kinh Tế' },
     { component: SlideEmployment, title: 'Việc Làm' },
+    { component: SlideEducation, title: 'Giáo Dục' },
+    { component: SlideTrade, title: 'Thương Mại' },
     { component: SlideSociety, title: 'Xã Hội' },
     { component: SlideEnvironment, title: 'Môi Trường' },
     { component: SlideRegional, title: 'Khu Vực' },
