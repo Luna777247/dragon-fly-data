@@ -17,6 +17,7 @@ import { SlideFuture } from '@/components/slides/SlideFuture';
 import { SlideConclusion } from '@/components/slides/SlideConclusion';
 import { ChevronLeft, ChevronRight, Play, Pause } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { ThemeToggle } from '@/components/ThemeToggle';
 
 const Index = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -163,6 +164,9 @@ const Index = () => {
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
     >
+      {/* Theme toggle */}
+      <ThemeToggle />
+
       {/* Progress bar */}
       <div className="fixed top-0 left-0 w-full h-1 bg-muted z-50">
         <div 

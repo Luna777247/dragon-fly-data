@@ -57,7 +57,8 @@ export const SlidePopulation = () => {
     return () => ctx.revert();
   }, []);
 
-  const chartData = vietnamData.filter((_, i) => i % 5 === 0);
+  // Use all data points from 1955-2024
+  const chartData = vietnamData;
 
   return (
     <div ref={containerRef} className="min-h-screen flex items-center justify-center py-20 px-6">

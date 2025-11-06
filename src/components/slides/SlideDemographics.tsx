@@ -52,7 +52,8 @@ export const SlideDemographics = () => {
     return () => ctx.revert();
   }, []);
 
-  const medianAgeData = data.filter((_, i) => i % 5 === 0).map(d => ({
+  // Use all data points from 1955-2024
+  const medianAgeData = data.map(d => ({
     year: d.year,
     medianAge: d.medianAge,
     fertility: d.fertilityRate

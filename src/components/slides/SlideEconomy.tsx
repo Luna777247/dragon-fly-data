@@ -53,7 +53,8 @@ export const SlideEconomy = () => {
     return () => ctx.revert();
   }, []);
 
-  const chartData = vietnamData.filter(d => d.year >= 1985);
+  // Use all data points from 1955-2024
+  const chartData = vietnamData;
 
   return (
     <div ref={containerRef} className="min-h-screen flex items-center justify-center py-20 px-6">
