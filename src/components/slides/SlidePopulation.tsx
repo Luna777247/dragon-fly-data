@@ -59,6 +59,7 @@ export const SlidePopulation = () => {
 
   // Use all data points from 1955-2024
   const chartData = vietnamData;
+  const milestoneYears = [1955, 1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025];
 
   return (
     <div ref={containerRef} className="min-h-screen flex items-center justify-center py-20 px-6">
@@ -98,6 +99,7 @@ export const SlidePopulation = () => {
                 dataKey="year" 
                 stroke="hsl(var(--muted-foreground))"
                 tick={{ fill: 'hsl(var(--muted-foreground))' }}
+                ticks={milestoneYears}
               />
               <YAxis 
                 stroke="hsl(var(--muted-foreground))"

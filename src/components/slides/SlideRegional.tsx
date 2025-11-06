@@ -47,13 +47,14 @@ export const SlideRegional = () => {
     return () => ctx.revert();
   }, []);
 
-  const regionalData = data.filter((_, i) => i % 10 === 0).map(d => ({
+  const regionalData = data.map(d => ({
     year: d.year,
     vnShare: (d.population / 8161972572 * 100).toFixed(2), // Approximate Asian pop
     rank: 18 - Math.floor((d.year - 1955) / 10), // Simulated ranking improvement
     medianAge: d.medianAge,
     fertility: d.fertilityRate
   }));
+  const milestoneYears = [1955, 1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025];
 
   const endData = data[data.length - 1];
   const startData = data[0];
@@ -143,6 +144,7 @@ export const SlideRegional = () => {
                   dataKey="year" 
                   stroke="hsl(var(--muted-foreground))"
                   tick={{ fill: 'hsl(var(--muted-foreground))' }}
+                  ticks={milestoneYears}
                 />
                 <YAxis 
                   reversed
@@ -178,6 +180,7 @@ export const SlideRegional = () => {
                   dataKey="year" 
                   stroke="hsl(var(--muted-foreground))"
                   tick={{ fill: 'hsl(var(--muted-foreground))' }}
+                  ticks={milestoneYears}
                 />
                 <YAxis 
                   stroke="hsl(var(--muted-foreground))"

@@ -41,7 +41,8 @@ export const SlideSociety = () => {
     return () => ctx.revert();
   }, []);
 
-  const lifeExpData = vietnamData.filter((_, i) => i % 5 === 0);
+  const lifeExpData = vietnamData;
+  const milestoneYears = [1955, 1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025];
   
   const radarData = [
     { subject: 'HDI', value: 0.84, fullMark: 1 },
@@ -108,6 +109,7 @@ export const SlideSociety = () => {
                   dataKey="year" 
                   stroke="hsl(var(--muted-foreground))"
                   tick={{ fill: 'hsl(var(--muted-foreground))' }}
+                  ticks={milestoneYears}
                 />
                 <YAxis 
                   domain={[55, 80]}

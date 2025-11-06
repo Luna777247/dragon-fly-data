@@ -46,7 +46,7 @@ export const SlideUrbanization = () => {
     return () => ctx.revert();
   }, []);
 
-  const urbanData = data.filter((_, i) => i % 5 === 0).map(d => {
+  const urbanData = data.map(d => {
     const urbanPop = (d.population * d.urbanPopPercent / 100) / 1000000;
     const ruralPop = (d.population * (100 - d.urbanPopPercent) / 100) / 1000000;
     return {
@@ -56,6 +56,7 @@ export const SlideUrbanization = () => {
       urbanPop
     };
   });
+  const milestoneYears = [1955, 1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025];
 
   const startData = data[0];
   const endData = data[data.length - 1];
@@ -98,6 +99,7 @@ export const SlideUrbanization = () => {
                 dataKey="year" 
                 stroke="hsl(var(--muted-foreground))"
                 tick={{ fill: 'hsl(var(--muted-foreground))' }}
+                ticks={milestoneYears}
               />
               <YAxis 
                 yAxisId="left"

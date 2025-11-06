@@ -46,13 +46,14 @@ export const SlideBirthDeath = () => {
     return () => ctx.revert();
   }, []);
 
-  const vitalData = data.filter((_, i) => i % 5 === 0).map(d => ({
+  const vitalData = data.map(d => ({
     year: d.year,
     birthRate: d.birthRate,
     deathRate: d.deathRate,
     fertilityRate: d.fertilityRate,
     dependencyRatio: d.dependencyRatio
   }));
+  const milestoneYears = [1955, 1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025];
 
   const startData = data[0];
   const endData = data[data.length - 1];
@@ -108,6 +109,7 @@ export const SlideBirthDeath = () => {
                 dataKey="year" 
                 stroke="hsl(var(--muted-foreground))"
                 tick={{ fill: 'hsl(var(--muted-foreground))' }}
+                ticks={milestoneYears}
               />
               <YAxis 
                 stroke="hsl(var(--muted-foreground))"
@@ -152,6 +154,7 @@ export const SlideBirthDeath = () => {
                   dataKey="year" 
                   stroke="hsl(var(--muted-foreground))"
                   tick={{ fill: 'hsl(var(--muted-foreground))' }}
+                  ticks={milestoneYears}
                 />
                 <YAxis 
                   stroke="hsl(var(--muted-foreground))"
@@ -185,6 +188,7 @@ export const SlideBirthDeath = () => {
                   dataKey="year" 
                   stroke="hsl(var(--muted-foreground))"
                   tick={{ fill: 'hsl(var(--muted-foreground))' }}
+                  ticks={milestoneYears}
                 />
                 <YAxis 
                   stroke="hsl(var(--muted-foreground))"

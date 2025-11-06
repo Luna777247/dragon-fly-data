@@ -46,11 +46,12 @@ export const SlideEnvironment = () => {
     return () => ctx.revert();
   }, []);
 
-  const envData = data.filter((_, i) => i % 5 === 0).map(d => ({
+  const envData = data.map(d => ({
     year: d.year,
     forestArea: d.forestAreaPercent,
     co2: d.co2PerCapita
   }));
+  const milestoneYears = [1955, 1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025];
 
   const startData = data[0];
   const endData = data[data.length - 1];
@@ -95,6 +96,7 @@ export const SlideEnvironment = () => {
                 dataKey="year" 
                 stroke="hsl(var(--muted-foreground))"
                 tick={{ fill: 'hsl(var(--muted-foreground))' }}
+                ticks={milestoneYears}
               />
               <YAxis 
                 yAxisId="left"

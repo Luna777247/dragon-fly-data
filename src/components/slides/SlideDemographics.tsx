@@ -58,6 +58,7 @@ export const SlideDemographics = () => {
     medianAge: d.medianAge,
     fertility: d.fertilityRate
   }));
+  const milestoneYears = [1955, 1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025];
 
   return (
     <div ref={containerRef} className="min-h-screen py-20 px-6 relative overflow-hidden">
@@ -81,11 +82,12 @@ export const SlideDemographics = () => {
             <ResponsiveContainer width="100%" height={300}>
               <LineChart data={medianAgeData}>
                 <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
-                <XAxis 
-                  dataKey="year" 
-                  stroke="hsl(var(--muted-foreground))"
-                  tick={{ fill: 'hsl(var(--muted-foreground))' }}
-                />
+              <XAxis 
+                dataKey="year" 
+                stroke="hsl(var(--muted-foreground))"
+                tick={{ fill: 'hsl(var(--muted-foreground))' }}
+                ticks={milestoneYears}
+              />
                 <YAxis 
                   stroke="hsl(var(--muted-foreground))"
                   tick={{ fill: 'hsl(var(--muted-foreground))' }}
@@ -114,11 +116,12 @@ export const SlideDemographics = () => {
             <ResponsiveContainer width="100%" height={300}>
               <AreaChart data={medianAgeData}>
                 <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
-                <XAxis 
-                  dataKey="year" 
-                  stroke="hsl(var(--muted-foreground))"
-                  tick={{ fill: 'hsl(var(--muted-foreground))' }}
-                />
+              <XAxis 
+                dataKey="year" 
+                stroke="hsl(var(--muted-foreground))"
+                tick={{ fill: 'hsl(var(--muted-foreground))' }}
+                ticks={milestoneYears}
+              />
                 <YAxis 
                   stroke="hsl(var(--muted-foreground))"
                   tick={{ fill: 'hsl(var(--muted-foreground))' }}

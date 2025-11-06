@@ -47,7 +47,8 @@ export const SlideFuture = () => {
   }, []);
 
   // Historical data + forecast
-  const historicalData = data.filter((_, i) => i % 5 === 0);
+  const historicalData = data;
+  const milestoneYears = [1955, 1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025, 2030, 2035];
   
   // Simple forecast to 2035 (linear projection)
   const lastPoint = data[data.length - 1];
@@ -129,6 +130,7 @@ export const SlideFuture = () => {
                 dataKey="year" 
                 stroke="hsl(var(--muted-foreground))"
                 tick={{ fill: 'hsl(var(--muted-foreground))' }}
+                ticks={milestoneYears}
               />
               <YAxis 
                 stroke="hsl(var(--muted-foreground))"
@@ -171,6 +173,7 @@ export const SlideFuture = () => {
                 dataKey="year" 
                 stroke="hsl(var(--muted-foreground))"
                 tick={{ fill: 'hsl(var(--muted-foreground))' }}
+                ticks={milestoneYears}
               />
               <YAxis 
                 stroke="hsl(var(--muted-foreground))"
