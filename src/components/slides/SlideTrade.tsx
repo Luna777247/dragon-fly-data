@@ -206,6 +206,22 @@ export const SlideTrade = () => {
             <p className="text-sm text-muted-foreground">Tăng mạnh sau Đổi mới 1986</p>
           </div>
         </div>
+
+        <div className="mt-12 bg-accent/10 backdrop-blur-sm p-8 rounded-2xl border border-accent/30">
+          <div className="flex items-start gap-4">
+            <TrendingUp className="w-8 h-8 text-accent flex-shrink-0 mt-1" />
+            <div>
+              <h3 className="text-2xl font-bold mb-3 text-accent">Hội Nhập Kinh Tế Toàn Cầu</h3>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Kim ngạch xuất khẩu tăng từ {firstData.exportsPercent}% GDP (1955) lên {latestData.exportsPercent}% (2024), 
+                trong khi GDP tăng mạnh từ ${firstData.gdpBillion} tỷ lên ${latestData.gdpBillion} tỷ USD. 
+                Từ một nền kinh tế khép kín, Việt Nam đã trở thành một trong những nền kinh tế mở nhất thế giới, 
+                với kim ngạch thương mại chiếm hơn 200% GDP. Đây là minh chứng rõ ràng nhất cho thành công của 
+                chính sách hội nhập kinh tế quốc tế.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -156,6 +156,21 @@ export const SlideSociety = () => {
             </ResponsiveContainer>
           </div>
         </div>
+
+        <div className="mt-12 bg-primary/10 backdrop-blur-sm p-8 rounded-2xl border border-primary/30">
+          <div className="flex items-start gap-4">
+            <Heart className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
+            <div>
+              <h3 className="text-2xl font-bold mb-3 text-primary">Phát Triển Con Người Toàn Diện</h3>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Tuổi thọ tăng từ {vietnamData[0].lifeExpectancy} lên {vietnamData[vietnamData.length - 1].lifeExpectancy} tuổi (+{(vietnamData[vietnamData.length - 1].lifeExpectancy - vietnamData[0].lifeExpectancy).toFixed(1)} năm), 
+                HDI tăng từ {vietnamData[0].hdi.toFixed(2)} lên {vietnamData[vietnamData.length - 1].hdi.toFixed(2)} (+{((vietnamData[vietnamData.length - 1].hdi / vietnamData[0].hdi - 1) * 100).toFixed(0)}%). 
+                Những con số này phản ánh sự tiến bộ vượt bậc về chất lượng cuộc sống, y tế và giáo dục. 
+                Việt Nam đã chứng minh rằng tăng trưởng kinh tế đi đôi với phát triển con người là hoàn toàn khả thi.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

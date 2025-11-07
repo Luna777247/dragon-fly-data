@@ -175,6 +175,22 @@ export const SlideUrbanization = () => {
             <div className="text-2xl font-semibold">+{(endData.urbanPopPercent - startData.urbanPopPercent).toFixed(1)}%</div>
           </div>
         </div>
+
+        <div className="mt-12 bg-accent/10 backdrop-blur-sm p-8 rounded-2xl border border-accent/30">
+          <div className="flex items-start gap-4">
+            <Building2 className="w-8 h-8 text-accent flex-shrink-0 mt-1" />
+            <div>
+              <h3 className="text-2xl font-bold mb-3 text-accent">Cuộc Cách Mạng Đô Thị Hóa</h3>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Dân số đô thị tăng từ {(startData.population * startData.urbanPopPercent / 100 / 1000000).toFixed(1)} triệu ({startData.urbanPopPercent}%) 
+                lên {(endData.population * endData.urbanPopPercent / 100 / 1000000).toFixed(1)} triệu ({endData.urbanPopPercent}%) - 
+                tăng {((endData.population * endData.urbanPopPercent) / (startData.population * startData.urbanPopPercent)).toFixed(1)} lần trong 70 năm. 
+                Đô thị hóa là động lực mạnh mẽ cho tăng trưởng kinh tế, nhưng cũng đặt ra thách thức lớn về hạ tầng, 
+                môi trường và quản lý đô thị bền vững.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

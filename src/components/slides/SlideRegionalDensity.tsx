@@ -210,6 +210,22 @@ export const SlideRegionalDensity = () => {
             </div>
           </div>
         </div>
+
+        <div className="mt-12 bg-primary/10 backdrop-blur-sm p-8 rounded-2xl border border-primary/30">
+          <div className="flex items-start gap-4">
+            <Map className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
+            <div>
+              <h3 className="text-2xl font-bold mb-3 text-primary">Mất Cân Đối Phát Triển Vùng</h3>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Đồng bằng Sông Hồng có mật độ cao nhất {latestData.densityDBSH} người/km², 
+                Đồng bằng Sông Cửu Long với mật độ {latestData.densityDBSCL} người/km², 
+                trong khi Miền Núi chỉ có mật độ thấp {latestData.densityMienNui} người/km². 
+                Chênh lệch mật độ lên tới {(latestData.densityDBSH / latestData.densityMienNui).toFixed(1)} lần, 
+                đặt ra thách thức lớn về phân bổ nguồn lực và phát triển đồng đều giữa các vùng.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

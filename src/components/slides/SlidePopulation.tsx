@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Area, AreaChart } from 'recharts';
 import { vietnamData } from '@/data/vietnamData';
+import { Users } from 'lucide-react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -141,6 +142,21 @@ export const SlidePopulation = () => {
             <div className="bg-muted/30 p-4 rounded-lg text-center">
               <div className="text-2xl font-bold text-secondary">×3.6</div>
               <p className="text-sm text-muted-foreground">Gấp 3.6 lần trong 70 năm</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-12 bg-primary/10 backdrop-blur-sm p-8 rounded-2xl border border-primary/30">
+          <div className="flex items-start gap-4">
+            <Users className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
+            <div>
+              <h3 className="text-2xl font-bold mb-3 text-primary">Phân Tích Tăng Trưởng Dân Số</h3>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Trong 70 năm (1955-2024), dân số Việt Nam tăng gấp 3.6 lần từ 28 triệu lên 101 triệu người. 
+                Tốc độ tăng trưởng cao nhất đạt 3.09% vào năm 1955 trong giai đoạn bùng nổ dân số, 
+                sau đó giảm dần xuống 0.63% năm 2024 khi chuyển sang giai đoạn ổn định. 
+                Sự chuyển đổi này phản ánh thành công của chính sách dân số và sự phát triển kinh tế - xã hội.
+              </p>
             </div>
           </div>
         </div>

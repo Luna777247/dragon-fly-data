@@ -191,6 +191,22 @@ export const SlideEducation = () => {
             <p className="text-sm text-muted-foreground mt-2">Chỉ số Vốn Con người 2024</p>
           </div>
         </div>
+
+        <div className="mt-12 bg-primary/10 backdrop-blur-sm p-8 rounded-2xl border border-primary/30">
+          <div className="flex items-start gap-4">
+            <GraduationCap className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
+            <div>
+              <h3 className="text-2xl font-bold mb-3 text-primary">Đầu Tư Vào Giáo Dục - Chìa Khóa Phát Triển</h3>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Tỷ lệ biết chữ tăng từ {firstData.literacyRate}% (1955) lên {latestData.literacyRate}% (2024), 
+                HDI tăng từ {firstData.hdi.toFixed(2)} lên {latestData.hdi.toFixed(2)}, 
+                và chỉ số giáo dục cải thiện từ {firstData.educationIndex.toFixed(2)} lên {latestData.educationIndex.toFixed(2)}. 
+                Những con số này chứng minh cam kết mạnh mẽ của Việt Nam trong việc đầu tư vào nguồn nhân lực - 
+                nền tảng quan trọng nhất cho sự phát triển bền vững.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

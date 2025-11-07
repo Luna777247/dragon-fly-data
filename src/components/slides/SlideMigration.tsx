@@ -245,6 +245,21 @@ export const SlideMigration = () => {
             </div>
           </div>
         </div>
+
+        <div className="mt-12 bg-accent/10 backdrop-blur-sm p-8 rounded-2xl border border-accent/30">
+          <div className="flex items-start gap-4">
+            <ArrowRightLeft className="w-8 h-8 text-accent flex-shrink-0 mt-1" />
+            <div>
+              <h3 className="text-2xl font-bold mb-3 text-accent">Di Cư Nội Bộ và Đô Thị Hóa</h3>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Tỷ lệ đô thị hóa tăng từ {firstData.urbanPopPercent}% (1955) lên {latestData.urbanPopPercent}% (2024) - tăng gần {((latestData.urbanPopPercent / firstData.urbanPopPercent)).toFixed(1)} lần. 
+                Dân số thành thị tăng từ {(firstData.population * firstData.urbanPopPercent / 100 / 1000000).toFixed(1)} triệu lên {(latestData.population * latestData.urbanPopPercent / 100 / 1000000).toFixed(1)} triệu người. 
+                Làn sóng di cư từ nông thôn ra thành thị đang định hình lại bản đồ dân cư Việt Nam, 
+                tạo ra cả cơ hội phát triển lẫn thách thức về hạ tầng đô thị và quản lý.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

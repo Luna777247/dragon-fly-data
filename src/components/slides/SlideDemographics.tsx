@@ -163,6 +163,21 @@ export const SlideDemographics = () => {
             </div>
           ))}
         </div>
+
+        <div className="mt-12 bg-secondary/10 backdrop-blur-sm p-8 rounded-2xl border border-secondary/30">
+          <div className="flex items-start gap-4">
+            <Users className="w-8 h-8 text-secondary flex-shrink-0 mt-1" />
+            <div>
+              <h3 className="text-2xl font-bold mb-3 text-secondary">Già Hóa Dân Số - Thách Thức Tương Lai</h3>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Tuổi trung vị tăng từ {data[0].medianAge} tuổi (1955) lên {data[data.length - 1].medianAge} tuổi (2024), 
+                trong khi tỷ suất sinh giảm từ {data[0].fertilityRate} xuống {data[data.length - 1].fertilityRate} con/phụ nữ. 
+                Dân số Việt Nam đang già hóa nhanh chóng - một xu hướng điển hình của các nước phát triển. 
+                Điều này đặt ra thách thức lớn về chăm sóc sức khỏe, an sinh xã hội và duy trì nguồn lao động trong tương lai.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

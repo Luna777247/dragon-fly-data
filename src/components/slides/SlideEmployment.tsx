@@ -162,6 +162,21 @@ export const SlideEmployment = () => {
             </div>
           </div>
         </div>
+
+        <div className="mt-12 bg-secondary/10 backdrop-blur-sm p-8 rounded-2xl border border-secondary/30">
+          <div className="flex items-start gap-4">
+            <Briefcase className="w-8 h-8 text-secondary flex-shrink-0 mt-1" />
+            <div>
+              <h3 className="text-2xl font-bold mb-3 text-secondary">Chuyển Dịch Cơ Cấu Lao Động</h3>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Tỷ trọng lao động nông nghiệp giảm từ {startData.employmentAgriculture}% (1955) xuống {endData.employmentAgriculture}% (2024), 
+                trong khi lao động dịch vụ tăng từ {startData.employmentServices}% lên {endData.employmentServices}%. 
+                Sự chuyển dịch này phản ánh quá trình công nghiệp hóa và hiện đại hóa thành công của Việt Nam. 
+                Tuy nhiên, năng suất lao động vẫn còn thấp so với khu vực, đòi hỏi đầu tư mạnh hơn vào đào tạo nghề và công nghệ.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -148,6 +148,21 @@ export const SlideEconomy = () => {
             </ComposedChart>
           </ResponsiveContainer>
         </div>
+
+        <div className="mt-12 bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10 backdrop-blur-sm p-8 rounded-2xl border border-primary/30">
+          <div className="flex items-start gap-4">
+            <TrendingUp className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
+            <div>
+              <h3 className="text-2xl font-bold mb-3 text-primary">Phép Màu Kinh Tế Việt Nam</h3>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                GDP tăng từ $2.1 tỷ (1955) lên $476.4 tỷ (2024) - tăng 227 lần trong 70 năm. 
+                Thu nhập bình quân đầu người từ $75 lên $4,717 - tăng 63 lần. 
+                Từ một nền kinh tế nông nghiệp nghèo nàn, Việt Nam đã chuyển mình thành một trong những nền kinh tế năng động nhất khu vực, 
+                với tốc độ tăng trưởng bình quân 6-7%/năm kể từ Đổi Mới 1986.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
