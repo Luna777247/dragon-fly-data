@@ -15,6 +15,9 @@ import { SlideEnvironment } from '@/components/slides/SlideEnvironment';
 import { SlideRegional } from '@/components/slides/SlideRegional';
 import { SlideFuture } from '@/components/slides/SlideFuture';
 import { SlideConclusion } from '@/components/slides/SlideConclusion';
+import { SlideRadialViz } from '@/components/slides/SlideRadialViz';
+import { SlideFeatherViz } from '@/components/slides/SlideFeatherViz';
+import { Slide3DViz } from '@/components/slides/Slide3DViz';
 import { ChevronLeft, ChevronRight, Play, Pause } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ThemeToggle } from '@/components/ThemeToggle';
@@ -37,10 +40,13 @@ const Index = () => {
     { component: SlideUrbanization, title: 'Đô Thị' },
     { component: SlideMigration, title: 'Di Cư' },
     { component: SlideRegionalDensity, title: 'Phân Bố Vùng' },
+    { component: SlideRadialViz, title: 'Bông Hoa' },
     { component: SlideEconomy, title: 'Kinh Tế' },
     { component: SlideEmployment, title: 'Việc Làm' },
+    { component: SlideFeatherViz, title: 'Lông Vũ' },
     { component: SlideEducation, title: 'Giáo Dục' },
     { component: SlideTrade, title: 'Thương Mại' },
+    { component: Slide3DViz, title: '3D Viz' },
     { component: SlideSociety, title: 'Xã Hội' },
     { component: SlideEnvironment, title: 'Môi Trường' },
     { component: SlideRegional, title: 'Khu Vực' },
