@@ -9,6 +9,10 @@ gsap.registerPlugin(ScrollTrigger);
 export const Slide3DViz = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [hoveredBar, setHoveredBar] = useState<number | null>(null);
+  const [rotation, setRotation] = useState({ x: 0, y: 0 });
+  const [zoom, setZoom] = useState(1);
+  const [isDragging, setIsDragging] = useState(false);
+  const [lastPos, setLastPos] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -62,6 +66,54 @@ export const Slide3DViz = () => {
   const maxPop = Math.max(...vizData.map(d => d.population));
   const maxGDP = Math.max(...vizData.map(d => d.gdpBillion));
 
+  // Mouse/Touch handlers for interactive 3D rotation
+  const handleMouseDown = (e: React.MouseEvent) => {
+    setIsDragging(true);
+    setLastPos({ x: e.clientX, y: e.clientY });
+  };
+
+  const handleMouseMove = (e: React.MouseEvent) => {
+    if (!isDragging) return;
+    const deltaX = e.clientX - lastPos.x;
+    const deltaY = e.clientY - lastPos.y;
+    setRotation(prev => ({
+      x: prev.x + deltaY * 0.5,
+      y: prev.y + deltaX * 0.5
+    }));
+    setLastPos({ x: e.clientX, y: e.clientY });
+  };
+
+  const handleMouseUp = () => {
+    setIsDragging(false);
+  };
+
+  const handleWheel = (e: React.WheelEvent) => {
+    e.preventDefault();
+    setZoom(prev => Math.max(0.5, Math.min(2, prev + (e.deltaY > 0 ? -0.1 : 0.1))));
+  };
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    if (e.touches.length === 1) {
+      setIsDragging(true);
+      setLastPos({ x: e.touches[0].clientX, y: e.touches[0].clientY });
+    }
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    if (!isDragging || e.touches.length !== 1) return;
+    const deltaX = e.touches[0].clientX - lastPos.x;
+    const deltaY = e.touches[0].clientY - lastPos.y;
+    setRotation(prev => ({
+      x: prev.x + deltaY * 0.5,
+      y: prev.y + deltaX * 0.5
+    }));
+    setLastPos({ x: e.touches[0].clientX, y: e.touches[0].clientY });
+  };
+
+  const handleTouchEnd = () => {
+    setIsDragging(false);
+  };
+
   return (
     <div ref={containerRef} className="min-h-screen py-20 px-6 relative overflow-hidden bg-gradient-to-br from-background via-primary/5 to-secondary/10">
       <div className="max-w-7xl mx-auto relative z-10">
@@ -76,12 +128,46 @@ export const Slide3DViz = () => {
         {/* 3D Bar Chart using CSS Transforms */}
         <div className="mb-16 perspective-1000">
           <div className="bg-card/30 backdrop-blur-sm p-12 rounded-2xl border border-border shadow-elegant transform-style-3d">
+            <div className="flex items-center justify-between mb-4">
+              <div className="text-xs text-muted-foreground bg-card/50 px-3 py-1 rounded-full">
+                Kéo để xoay • Cuộn để zoom
+              </div>
+              <div className="text-xs text-muted-foreground bg-card/50 px-3 py-1 rounded-full">
+                Zoom: {(zoom * 100).toFixed(0)}%
+              </div>
+            </div>
             <h3 className="text-2xl font-bold mb-8 text-center flex items-center justify-center gap-3">
               <TrendingUp className="w-6 h-6 text-primary" />
               Dân Số & GDP Qua Thời Gian (3D)
             </h3>
             
-            <div className="relative h-96 flex items-end justify-around gap-4" style={{ perspective: '1000px' }}>
+            <div 
+              className="relative h-96 flex items-end justify-around gap-4 cursor-grab active:cursor-grabbing select-none" 
+              style={{ 
+                perspective: '1000px',
+                transform: `scale(${zoom})`,
+                transition: isDragging ? 'none' : 'transform 0.3s ease'
+              }}
+              onMouseDown={handleMouseDown}
+              onMouseMove={handleMouseMove}
+              onMouseUp={handleMouseUp}
+              onMouseLeave={handleMouseUp}
+              onWheel={handleWheel}
+              onTouchStart={handleTouchStart}
+              onTouchMove={handleTouchMove}
+              onTouchEnd={handleTouchEnd}
+            >
+              <div style={{ 
+                transform: `rotateX(${rotation.x}deg) rotateY(${rotation.y}deg)`,
+                transformStyle: 'preserve-3d',
+                width: '100%',
+                height: '100%',
+                display: 'flex',
+                alignItems: 'flex-end',
+                justifyContent: 'space-around',
+                gap: '1rem',
+                transition: isDragging ? 'none' : 'transform 0.3s ease'
+              }}>
               {vizData.map((d, idx) => {
                 const popHeight = (d.population / maxPop) * 100;
                 const gdpHeight = (d.gdpBillion / maxGDP) * 100;
@@ -156,6 +242,7 @@ export const Slide3DViz = () => {
                   </div>
                 );
               })}
+              </div>
             </div>
 
             {/* Legend */}

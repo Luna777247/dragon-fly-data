@@ -18,6 +18,9 @@ import { SlideConclusion } from '@/components/slides/SlideConclusion';
 import { SlideRadialViz } from '@/components/slides/SlideRadialViz';
 import { SlideFeatherViz } from '@/components/slides/SlideFeatherViz';
 import { Slide3DViz } from '@/components/slides/Slide3DViz';
+import { SlideDashboard } from '@/components/slides/SlideDashboard';
+import { SlideYearComparison } from '@/components/slides/SlideYearComparison';
+import { SlideSunburst } from '@/components/slides/SlideSunburst';
 import { ChevronLeft, ChevronRight, Play, Pause } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ThemeToggle } from '@/components/ThemeToggle';
@@ -34,12 +37,15 @@ const Index = () => {
   const touchEndRef = useRef<number>(0);
 
   const slides = [
+    { component: SlideDashboard, title: 'Dashboard' },
+    { component: SlideYearComparison, title: 'So Sánh' },
     { component: SlidePopulation, title: 'Dân Số' },
     { component: SlideDemographics, title: 'Nhân Khẩu' },
     { component: SlideBirthDeath, title: 'Sinh Tử' },
     { component: SlideUrbanization, title: 'Đô Thị' },
     { component: SlideMigration, title: 'Di Cư' },
     { component: SlideRegionalDensity, title: 'Phân Bố Vùng' },
+    { component: SlideSunburst, title: 'Sunburst' },
     { component: SlideRadialViz, title: 'Bông Hoa' },
     { component: SlideEconomy, title: 'Kinh Tế' },
     { component: SlideEmployment, title: 'Việc Làm' },
