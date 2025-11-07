@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { vietnamData } from '@/data/vietnamData';
 import { SlideHero } from '@/components/slides/SlideHero';
 import { SlidePopulation } from '@/components/slides/SlidePopulation';
 import { SlideDemographics } from '@/components/slides/SlideDemographics';
@@ -24,6 +25,7 @@ import { SlideSunburst } from '@/components/slides/SlideSunburst';
 import { ChevronLeft, ChevronRight, Play, Pause } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ThemeToggle } from '@/components/ThemeToggle';
+import { TimelineSlider } from '@/components/TimelineSlider';
 
 const Index = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -31,6 +33,7 @@ const Index = () => {
   const [isAutoPlaying, setIsAutoPlaying] = useState(false);
   const [autoPlaySpeed, setAutoPlaySpeed] = useState(5000); // 5s default
   const [direction, setDirection] = useState<'next' | 'prev'>('next');
+  const [selectedTimelineYear, setSelectedTimelineYear] = useState<number | undefined>(undefined);
   const containerRef = useRef<HTMLDivElement>(null);
   const autoPlayTimerRef = useRef<NodeJS.Timeout | null>(null);
   const touchStartRef = useRef<number>(0);
@@ -122,6 +125,12 @@ const Index = () => {
 
   const scrollToTop = () => {
     containerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
+  const handleTimelineYearSelect = (year: number) => {
+    setSelectedTimelineYear(year);
+    // You can add logic here to jump to a slide that shows this year's data
+    // For now, we'll just update the state
   };
 
   // Auto-play functionality
@@ -271,9 +280,15 @@ const Index = () => {
       </div>
 
       {/* Hint text */}
-      <div className="fixed bottom-20 left-1/2 -translate-x-1/2 z-40 text-muted-foreground text-sm opacity-60 hidden md:block">
+      <div className="fixed bottom-32 left-1/2 -translate-x-1/2 z-40 text-muted-foreground text-sm opacity-60 hidden md:block">
         Sử dụng ← → hoặc Space để điều hướng • Vuốt màn hình trên mobile
       </div>
+
+      {/* Timeline Slider */}
+      <TimelineSlider 
+        currentYear={selectedTimelineYear}
+        onYearSelect={handleTimelineYearSelect}
+      />
     </div>
   );
 };
