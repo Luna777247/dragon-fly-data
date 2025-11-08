@@ -1,15 +1,18 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Bar, BarChart, ComposedChart } from 'recharts';
 import { vietnamData } from '@/data/vietnamData';
-import { TrendingUp, DollarSign } from 'lucide-react';
+import { TrendingUp, DollarSign, Maximize2 } from 'lucide-react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ExportButtons } from '@/components/ExportButtons';
+import { FullscreenChart } from '@/components/FullscreenChart';
+import { Button } from '@/components/ui/button';
 
 gsap.registerPlugin(ScrollTrigger);
 
 export const SlideEconomy = () => {
   const containerRef = useRef<HTMLDivElement>(null);
+  const [isFullscreen, setIsFullscreen] = useState(false);
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -95,11 +98,22 @@ export const SlideEconomy = () => {
         <div id="economy-chart" className="econ-chart bg-card/50 backdrop-blur-sm p-8 rounded-2xl border border-border shadow-[0_0_50px_rgba(0,0,0,0.3)]">
           <div className="flex justify-between items-center mb-6">
             <h3 className="text-xl font-semibold">Hành Trình Tăng Trưởng GDP</h3>
-            <ExportButtons 
-              elementId="economy-chart" 
-              filename="gdp-viet-nam"
-              data={chartData}
-            />
+            <div className="flex gap-2">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setIsFullscreen(true)}
+                className="gap-2"
+              >
+                <Maximize2 className="w-4 h-4" />
+                Toàn màn hình
+              </Button>
+              <ExportButtons 
+                elementId="economy-chart" 
+                filename="gdp-viet-nam"
+                data={chartData}
+              />
+            </div>
           </div>
           <ResponsiveContainer width="100%" height={400}>
             <ComposedChart data={chartData}>
@@ -172,6 +186,67 @@ export const SlideEconomy = () => {
           </div>
         </div>
       </div>
+
+      <FullscreenChart
+        isOpen={isFullscreen}
+        onClose={() => setIsFullscreen(false)}
+        title="Hành Trình Tăng Trưởng GDP"
+      >
+        <ResponsiveContainer width="100%" height="80%">
+          <ComposedChart data={chartData}>
+            <defs>
+              <linearGradient id="gdpGradient" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="5%" stopColor="hsl(var(--primary))" stopOpacity={0.8}/>
+                <stop offset="95%" stopColor="hsl(var(--primary))" stopOpacity={0.1}/>
+              </linearGradient>
+            </defs>
+            <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" opacity={0.3} />
+            <XAxis 
+              dataKey="year" 
+              stroke="hsl(var(--muted-foreground))"
+              tick={{ fill: 'hsl(var(--muted-foreground))' }}
+              ticks={milestoneYears}
+            />
+            <YAxis 
+              yAxisId="left"
+              stroke="hsl(var(--muted-foreground))"
+              tick={{ fill: 'hsl(var(--muted-foreground))' }}
+              tickFormatter={(value) => `$${value}B`}
+            />
+            <YAxis 
+              yAxisId="right"
+              orientation="right"
+              stroke="hsl(var(--secondary))"
+              tick={{ fill: 'hsl(var(--secondary))' }}
+              tickFormatter={(value) => `$${value}`}
+            />
+            <Tooltip 
+              contentStyle={{ 
+                backgroundColor: 'hsl(var(--card))',
+                border: '1px solid hsl(var(--border))',
+                borderRadius: '8px',
+                color: 'hsl(var(--foreground))'
+              }}
+            />
+            <Bar 
+              yAxisId="left"
+              dataKey="gdpBillion" 
+              fill="url(#gdpGradient)"
+              radius={[8, 8, 0, 0]}
+              animationDuration={1500}
+            />
+            <Line 
+              yAxisId="right"
+              type="monotone" 
+              dataKey="gdpPerCapita" 
+              stroke="hsl(var(--secondary))" 
+              strokeWidth={3}
+              dot={{ fill: 'hsl(var(--secondary))', r: 4 }}
+              animationDuration={2000}
+            />
+          </ComposedChart>
+        </ResponsiveContainer>
+      </FullscreenChart>
     </div>
   );
 };

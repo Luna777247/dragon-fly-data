@@ -1,11 +1,13 @@
 import { useEffect, useRef, useState } from 'react';
 import { vietnamData } from '@/data/vietnamData';
-import { LayoutDashboard, TrendingUp, Users, Briefcase, GraduationCap } from 'lucide-react';
+import { LayoutDashboard, TrendingUp, Users, Briefcase, GraduationCap, Maximize2 } from 'lucide-react';
 import { LineChart, Line, BarChart, Bar, AreaChart, Area, RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { CustomTooltip } from '@/components/ui/custom-tooltip';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ExportButtons } from '@/components/ExportButtons';
+import { FullscreenChart } from '@/components/FullscreenChart';
+import { Button } from '@/components/ui/button';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -15,6 +17,7 @@ export const SlideDashboard = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [selectedMetric, setSelectedMetric] = useState<MetricType>('all');
   const [yearRange, setYearRange] = useState({ start: 1955, end: 2025 });
+  const [fullscreenChart, setFullscreenChart] = useState<string | null>(null);
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -172,12 +175,22 @@ export const SlideDashboard = () => {
                   <TrendingUp className="w-5 h-5 text-primary" />
                   Dân Số & GDP
                 </h3>
-                <ExportButtons 
-                  elementId="dashboard-population-gdp" 
-                  filename="dashboard-dan-so-gdp"
-                  data={chartData}
-                  variant="ghost"
-                />
+                <div className="flex gap-2">
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    onClick={() => setFullscreenChart('population-gdp')}
+                    className="gap-2"
+                  >
+                    <Maximize2 className="w-4 h-4" />
+                  </Button>
+                  <ExportButtons 
+                    elementId="dashboard-population-gdp" 
+                    filename="dashboard-dan-so-gdp"
+                    data={chartData}
+                    variant="ghost"
+                  />
+                </div>
               </div>
               <ResponsiveContainer width="100%" height={300}>
                 <LineChart data={chartData}>
@@ -266,6 +279,25 @@ export const SlideDashboard = () => {
           </div>
         </div>
       </div>
+
+      <FullscreenChart
+        isOpen={fullscreenChart === 'population-gdp'}
+        onClose={() => setFullscreenChart(null)}
+        title="Dân Số & GDP"
+      >
+        <ResponsiveContainer width="100%" height="80%">
+          <LineChart data={chartData}>
+            <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
+            <XAxis dataKey="year" stroke="hsl(var(--muted-foreground))" />
+            <YAxis yAxisId="left" stroke="hsl(var(--primary))" />
+            <YAxis yAxisId="right" orientation="right" stroke="hsl(var(--secondary))" />
+            <Tooltip content={<CustomTooltip />} />
+            <Legend />
+            <Line yAxisId="left" type="monotone" dataKey="population" stroke="hsl(var(--primary))" strokeWidth={3} name="Dân số (M)" dot={{ fill: 'hsl(var(--primary))' }} />
+            <Line yAxisId="right" type="monotone" dataKey="gdp" stroke="hsl(var(--secondary))" strokeWidth={3} name="GDP ($B)" dot={{ fill: 'hsl(var(--secondary))' }} />
+          </LineChart>
+        </ResponsiveContainer>
+      </FullscreenChart>
     </div>
   );
 };

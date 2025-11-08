@@ -1,16 +1,19 @@
 import { useEffect, useRef, useState } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Area, AreaChart } from 'recharts';
 import { vietnamData } from '@/data/vietnamData';
-import { Users } from 'lucide-react';
+import { Users, Maximize2 } from 'lucide-react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ExportButtons } from '@/components/ExportButtons';
+import { FullscreenChart } from '@/components/FullscreenChart';
+import { Button } from '@/components/ui/button';
 
 gsap.registerPlugin(ScrollTrigger);
 
 export const SlidePopulation = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [counter, setCounter] = useState(28);
+  const [isFullscreen, setIsFullscreen] = useState(false);
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -90,11 +93,22 @@ export const SlidePopulation = () => {
         <div id="population-chart" className="pop-chart bg-card/50 backdrop-blur-sm p-8 rounded-2xl border border-border shadow-[0_0_50px_rgba(0,0,0,0.3)]">
           <div className="flex justify-between items-center mb-4">
             <h3 className="text-xl font-semibold">Biểu Đồ Tăng Trưởng Dân Số</h3>
-            <ExportButtons 
-              elementId="population-chart" 
-              filename="dan-so-viet-nam"
-              data={chartData}
-            />
+            <div className="flex gap-2">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setIsFullscreen(true)}
+                className="gap-2"
+              >
+                <Maximize2 className="w-4 h-4" />
+                Toàn màn hình
+              </Button>
+              <ExportButtons 
+                elementId="population-chart" 
+                filename="dan-so-viet-nam"
+                data={chartData}
+              />
+            </div>
           </div>
           <ResponsiveContainer width="100%" height={400}>
             <AreaChart data={chartData}>
@@ -170,6 +184,55 @@ export const SlidePopulation = () => {
           </div>
         </div>
       </div>
+
+      <FullscreenChart
+        isOpen={isFullscreen}
+        onClose={() => setIsFullscreen(false)}
+        title="Biểu Đồ Tăng Trưởng Dân Số"
+      >
+        <ResponsiveContainer width="100%" height="80%">
+          <AreaChart data={chartData}>
+            <defs>
+              <linearGradient id="populationGradient" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="5%" stopColor="hsl(var(--primary))" stopOpacity={0.8}/>
+                <stop offset="95%" stopColor="hsl(var(--primary))" stopOpacity={0}/>
+              </linearGradient>
+            </defs>
+            <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" opacity={0.3} />
+            <XAxis 
+              dataKey="year" 
+              stroke="hsl(var(--muted-foreground))"
+              tick={{ fill: 'hsl(var(--muted-foreground))' }}
+              ticks={milestoneYears}
+            />
+            <YAxis 
+              stroke="hsl(var(--muted-foreground))"
+              tick={{ fill: 'hsl(var(--muted-foreground))' }}
+              tickFormatter={(value) => `${(value / 1000000).toFixed(0)}M`}
+            />
+            <Tooltip 
+              contentStyle={{ 
+                backgroundColor: 'hsl(var(--card))',
+                border: '1px solid hsl(var(--border))',
+                borderRadius: '8px',
+                color: 'hsl(var(--foreground))'
+              }}
+              formatter={(value: number) => [
+                `${(value / 1000000).toFixed(1)} triệu`,
+                'Dân số'
+              ]}
+            />
+            <Area 
+              type="monotone" 
+              dataKey="population" 
+              stroke="hsl(var(--primary))" 
+              strokeWidth={3}
+              fill="url(#populationGradient)"
+              animationDuration={2000}
+            />
+          </AreaChart>
+        </ResponsiveContainer>
+      </FullscreenChart>
     </div>
   );
 };
