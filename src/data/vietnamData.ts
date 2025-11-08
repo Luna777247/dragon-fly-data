@@ -73,12 +73,11 @@ export interface VietnamDataPoint {
   epiScore: number;
 }
 
+// Import CSV as raw text using Vite's ?raw suffix
+import csvRawData from './vietnam_advance.csv?raw';
+
 export const parseVietnamData = (): VietnamDataPoint[] => {
-  // Read CSV file synchronously by importing it as a module
-  const csvModule = require('./vietnam_advance.csv');
-  const csvData = typeof csvModule === 'string' ? csvModule : csvModule.default;
-  
-  const lines = csvData.trim().split('\n');
+  const lines = csvRawData.trim().split('\n');
   const headers = lines[0].split(',');
   
   return lines.slice(1).map(line => {
