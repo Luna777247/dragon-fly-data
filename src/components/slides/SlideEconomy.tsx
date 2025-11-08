@@ -4,6 +4,7 @@ import { vietnamData } from '@/data/vietnamData';
 import { TrendingUp, DollarSign } from 'lucide-react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { ExportButtons } from '@/components/ExportButtons';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -91,8 +92,15 @@ export const SlideEconomy = () => {
           </div>
         </div>
 
-        <div className="econ-chart bg-card/50 backdrop-blur-sm p-8 rounded-2xl border border-border shadow-[0_0_50px_rgba(0,0,0,0.3)]">
-          <h3 className="text-xl font-semibold mb-6 text-center">Hành Trình Tăng Trưởng GDP</h3>
+        <div id="economy-chart" className="econ-chart bg-card/50 backdrop-blur-sm p-8 rounded-2xl border border-border shadow-[0_0_50px_rgba(0,0,0,0.3)]">
+          <div className="flex justify-between items-center mb-6">
+            <h3 className="text-xl font-semibold">Hành Trình Tăng Trưởng GDP</h3>
+            <ExportButtons 
+              elementId="economy-chart" 
+              filename="gdp-viet-nam"
+              data={chartData}
+            />
+          </div>
           <ResponsiveContainer width="100%" height={400}>
             <ComposedChart data={chartData}>
               <defs>

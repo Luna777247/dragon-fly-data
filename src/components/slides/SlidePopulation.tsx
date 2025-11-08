@@ -4,6 +4,7 @@ import { vietnamData } from '@/data/vietnamData';
 import { Users } from 'lucide-react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { ExportButtons } from '@/components/ExportButtons';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -86,7 +87,15 @@ export const SlidePopulation = () => {
           </div>
         </div>
 
-        <div className="pop-chart bg-card/50 backdrop-blur-sm p-8 rounded-2xl border border-border shadow-[0_0_50px_rgba(0,0,0,0.3)]">
+        <div id="population-chart" className="pop-chart bg-card/50 backdrop-blur-sm p-8 rounded-2xl border border-border shadow-[0_0_50px_rgba(0,0,0,0.3)]">
+          <div className="flex justify-between items-center mb-4">
+            <h3 className="text-xl font-semibold">Biểu Đồ Tăng Trưởng Dân Số</h3>
+            <ExportButtons 
+              elementId="population-chart" 
+              filename="dan-so-viet-nam"
+              data={chartData}
+            />
+          </div>
           <ResponsiveContainer width="100%" height={400}>
             <AreaChart data={chartData}>
               <defs>

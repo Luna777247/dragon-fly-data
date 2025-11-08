@@ -5,6 +5,7 @@ import { LineChart, Line, BarChart, Bar, AreaChart, Area, RadarChart, Radar, Pol
 import { CustomTooltip } from '@/components/ui/custom-tooltip';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { ExportButtons } from '@/components/ExportButtons';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -165,11 +166,19 @@ export const SlideDashboard = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-12">
           {/* Population & GDP Trend */}
           {(selectedMetric === 'all' || selectedMetric === 'population' || selectedMetric === 'economy') && (
-            <div className="dash-chart bg-card/30 backdrop-blur-sm p-6 rounded-2xl border border-border shadow-elegant">
-              <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
-                <TrendingUp className="w-5 h-5 text-primary" />
-                Dân Số & GDP
-              </h3>
+            <div id="dashboard-population-gdp" className="dash-chart bg-card/30 backdrop-blur-sm p-6 rounded-2xl border border-border shadow-elegant">
+              <div className="flex justify-between items-center mb-4">
+                <h3 className="text-xl font-bold flex items-center gap-2">
+                  <TrendingUp className="w-5 h-5 text-primary" />
+                  Dân Số & GDP
+                </h3>
+                <ExportButtons 
+                  elementId="dashboard-population-gdp" 
+                  filename="dashboard-dan-so-gdp"
+                  data={chartData}
+                  variant="ghost"
+                />
+              </div>
               <ResponsiveContainer width="100%" height={300}>
                 <LineChart data={chartData}>
                   <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
