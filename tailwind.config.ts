@@ -97,20 +97,28 @@ export default {
           "100%": { opacity: "1" }
         },
         "slideInFromRight": {
-          "0%": { opacity: "0", transform: "translateX(100px)" },
-          "100%": { opacity: "1", transform: "translateX(0)" }
+          "0%": { opacity: "0", transform: "translateX(60px) scale(0.95)" },
+          "100%": { opacity: "1", transform: "translateX(0) scale(1)" }
         },
         "slideInFromLeft": {
-          "0%": { opacity: "0", transform: "translateX(-100px)" },
-          "100%": { opacity: "1", transform: "translateX(0)" }
+          "0%": { opacity: "0", transform: "translateX(-60px) scale(0.95)" },
+          "100%": { opacity: "1", transform: "translateX(0) scale(1)" }
         },
         "slideOutToLeft": {
-          "0%": { opacity: "1", transform: "translateX(0)" },
-          "100%": { opacity: "0", transform: "translateX(-100px)" }
+          "0%": { opacity: "1", transform: "translateX(0) scale(1)" },
+          "100%": { opacity: "0", transform: "translateX(-60px) scale(0.95)" }
         },
         "slideOutToRight": {
-          "0%": { opacity: "1", transform: "translateX(0)" },
-          "100%": { opacity: "0", transform: "translateX(100px)" }
+          "0%": { opacity: "1", transform: "translateX(0) scale(1)" },
+          "100%": { opacity: "0", transform: "translateX(60px) scale(0.95)" }
+        },
+        "fadeInScale": {
+          "0%": { opacity: "0", transform: "scale(0.96)" },
+          "100%": { opacity: "1", transform: "scale(1)" }
+        },
+        "fadeOutScale": {
+          "0%": { opacity: "1", transform: "scale(1)" },
+          "100%": { opacity: "0", transform: "scale(0.96)" }
         },
       },
       animation: {
@@ -120,10 +128,12 @@ export default {
         "slide-up": "slide-up 0.8s ease-out",
         "scale-in": "scale-in 0.5s ease-out",
         "dragon-fly": "dragon-fly 20s linear infinite",
-        "slideInFromRight": "slideInFromRight 0.7s ease-out",
-        "slideInFromLeft": "slideInFromLeft 0.7s ease-out",
-        "slideOutToLeft": "slideOutToLeft 0.7s ease-out",
-        "slideOutToRight": "slideOutToRight 0.7s ease-out",
+        "slideInFromRight": "slideInFromRight 0.6s cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "slideInFromLeft": "slideInFromLeft 0.6s cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "slideOutToLeft": "slideOutToLeft 0.4s ease-in",
+        "slideOutToRight": "slideOutToRight 0.4s ease-in",
+        "fadeInScale": "fadeInScale 0.5s cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "fadeOutScale": "fadeOutScale 0.3s ease-in",
       },
     },
   },

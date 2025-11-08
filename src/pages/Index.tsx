@@ -34,6 +34,7 @@ const Index = () => {
   const [autoPlaySpeed, setAutoPlaySpeed] = useState(5000); // 5s default
   const [direction, setDirection] = useState<'next' | 'prev'>('next');
   const [selectedTimelineYear, setSelectedTimelineYear] = useState<number | undefined>(undefined);
+  const [isTransitioning, setIsTransitioning] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const autoPlayTimerRef = useRef<NodeJS.Timeout | null>(null);
   const touchStartRef = useRef<number>(0);
@@ -68,27 +69,42 @@ const Index = () => {
   };
 
   const nextSlide = () => {
+    if (isTransitioning) return;
     if (currentSlide < slides.length - 1) {
+      setIsTransitioning(true);
       setDirection('next');
-      setCurrentSlide(currentSlide + 1);
-      scrollToTop();
+      setTimeout(() => {
+        setCurrentSlide(currentSlide + 1);
+        scrollToTop();
+        setTimeout(() => setIsTransitioning(false), 600);
+      }, 50);
     } else if (isAutoPlaying) {
       setIsAutoPlaying(false);
     }
   };
 
   const prevSlide = () => {
+    if (isTransitioning) return;
     if (currentSlide > 0) {
+      setIsTransitioning(true);
       setDirection('prev');
-      setCurrentSlide(currentSlide - 1);
-      scrollToTop();
+      setTimeout(() => {
+        setCurrentSlide(currentSlide - 1);
+        scrollToTop();
+        setTimeout(() => setIsTransitioning(false), 600);
+      }, 50);
     }
   };
 
   const goToSlide = (index: number) => {
+    if (isTransitioning || index === currentSlide) return;
+    setIsTransitioning(true);
     setDirection(index > currentSlide ? 'next' : 'prev');
-    setCurrentSlide(index);
-    scrollToTop();
+    setTimeout(() => {
+      setCurrentSlide(index);
+      scrollToTop();
+      setTimeout(() => setIsTransitioning(false), 600);
+    }, 50);
   };
 
   const toggleAutoPlay = () => {
@@ -269,12 +285,15 @@ const Index = () => {
 
       {/* Current slide with smooth transitions */}
       <div 
-        className={`min-h-screen transition-all duration-700 ease-out ${
+        className={`min-h-screen ${
           direction === 'next' 
-            ? 'animate-[slideInFromRight_0.7s_ease-out]' 
-            : 'animate-[slideInFromLeft_0.7s_ease-out]'
+            ? 'animate-slideInFromRight' 
+            : 'animate-slideInFromLeft'
         }`}
         key={currentSlide}
+        style={{
+          animationFillMode: 'both',
+        }}
       >
         <CurrentSlideComponent />
       </div>
