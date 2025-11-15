@@ -1,7 +1,7 @@
 # Vietnam Data Story - AI Agent Instructions
 
 ## Project Overview
-Interactive data visualization of Vietnam's 70-year development (1955-2025) built with React/TypeScript/Vite. Combines 72 socioeconomic indicators into an animated slide presentation with GSAP animations and Recharts visualizations. Includes Jupyter notebooks in `notebooks/` for data analysis corresponding to slide visualizations.
+Interactive data visualization of Vietnam's 70-year development (1955-2025) built with React/TypeScript/Vite. Combines 72 socioeconomic indicators into an animated slide presentation with GSAP animations and Recharts visualizations. Includes Jupyter notebooks in `notebooks/` for data analysis corresponding to slide visualizations, and a Streamlit dashboard in `streamlit_app/` aggregating notebook results.
 
 ## Critical Architecture Decisions
 
@@ -130,8 +130,40 @@ Check `import.meta.env.VITE_SUPABASE_URL` before using services. Features degrad
 - `bookmarkService`: User-saved slides
 - `sharingService`: Share presentations via tokens
 
-### Path Alias
-`@/` → `src/` (configured in `vite.config.ts` and `tsconfig.json`)
+### Streamlit Dashboard (`streamlit_app/`)
+Standalone Python dashboard aggregating notebook analysis results. Run independently of React app:
+```bash
+cd streamlit_app
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+**Architecture**: 7 sections mirroring notebook analyses (historical trends, economic forecasting, etc.). Uses Plotly for interactive charts, Pandas for data processing. Data sourced from `processdataset/` CSVs with absolute paths for reliability.
+
+**Key Files**:
+- `app.py`: Main dashboard with sidebar navigation and section components
+- `requirements.txt`: Python dependencies (streamlit, plotly, pandas, numpy)
+- `README.md`: Deployment and usage instructions
+
+**Data Integration**: Reads processed CSVs from `../processdataset/` using `pd.read_csv()` with proper encoding and error handling.
+
+### Notebook Integration (`notebooks/`)
+Jupyter notebooks provide data analysis foundation for slide visualizations. Each notebook corresponds to a React slide component:
+
+**Workflow**:
+1. **Analysis**: Notebooks in `notebooks/` process data and generate insights
+2. **Results**: Save processed data to `processdataset/` CSVs
+3. **Visualization**: React slides load CSV results and render as infographics
+4. **Sync**: Streamlit dashboard aggregates all notebook outputs
+
+**Key Notebooks**:
+- `historical_trends.ipynb`: Period analysis with key events
+- `economic_forecasting.ipynb`: GDP growth projections
+- `social_forecasting.ipynb`: Demographic trends
+- `policy_research.ipynb`: Development policy analysis
+- `environmental_analysis.ipynb`: Sustainability metrics
+
+**Data Flow**: `notebooks/` → `processdataset/*.csv` → `vietnamData.ts` → slides + Streamlit
 
 ## Common Tasks
 
@@ -139,10 +171,20 @@ Check `import.meta.env.VITE_SUPABASE_URL` before using services. Features degrad
 1. Create `src/components/slides/SlideFeatureName.tsx` using template above
 2. Add lazy import to `slidesConfig.ts`:
    ```typescript
-   SlideFeatureName: lazy(() => import('@/components/slides/SlideFeatureName').then(m => ({ default: m.SlideFeatureName }))),
+   SlideFeatureName: lazy(() => import('@/components/slides/SlideFeatureName').then(m => ({ default: m.SlideFeatureName })),
    ```
 3. Add to `slidesConfig` array: `{ component: lazySlides.SlideFeatureName, title: 'Vietnamese Title' }`
 4. Rebuild to verify code splitting: `npm run build` (check `dist/assets/` for separate chunk)
+
+### Creating Infographic Slides
+Transform slides into data-driven infographics using notebook results:
+1. **Data Source**: Load from `vietnamData` (latest values) or `processdataset/` CSVs
+2. **Visualization**: Use Recharts ComposedChart for dual-axis (bars + lines), ReferenceLine for events
+3. **Layout**: Grid of data cards with Lucide icons, responsive design; or historical periods grid with year selectors
+4. **Animation**: GSAP timeline with staggered reveals, proper cleanup
+5. **Examples**: 
+   - `SlideHistoricalTrends.tsx`: Periods grid + GDP ComposedChart with growth line and event markers (Đổi Mới, WTO, COVID-19)
+   - `SlideChapterIntro.tsx`: Key stats cards (population, GDP, HDI, etc.) with icons and latest values; removed year selector for cleaner infographic focus
 
 ### Debugging Data Parsing Issues
 ```powershell
@@ -189,6 +231,7 @@ gsap.from('.element', { opacity: 0 });  // BAD: orphaned ScrollTrigger
 - `rawdataset/DATA_QUALITY_FINAL_REPORT.md`: Data validation audit (79 fixes, 100% valid)
 - `IMPROVEMENTS.md`: Code quality enhancements (lazy loading, type safety)
 - `ENHANCEMENTS.md`: Visual design & narrative structure decisions
+- `streamlit_app/README.md`: Streamlit dashboard deployment and usage
 - `package.json` scripts: Standard Vite commands + custom build modes
 
 ## Quick Reference Commands
@@ -198,4 +241,5 @@ npm run build                            # Production build
 npm run build:dev                        # Dev mode build
 cd rawdataset; .\validate_ranges.ps1    # Validate CSV
 Get-Content src\data\vietnam_advance.csv | Measure-Object -Line  # Count rows (should be 72 headers + 71 data)
+cd streamlit_app; streamlit run app.py   # Run Streamlit dashboard
 ```
