@@ -1,8 +1,9 @@
-import { useEffect, useRef } from 'react';
-import { ArrowRight } from 'lucide-react';
+import { useEffect, useRef, useMemo } from 'react';
+import { ArrowRight, Users, TrendingUp, Heart, GraduationCap } from 'lucide-react';
 import gsap from 'gsap';
 import { Button } from '@/components/ui/button';
 import { NarrativeChapter, NARRATIVE_INSIGHTS } from '@/constants/narrativeStructure';
+import { vietnamData } from '@/data/vietnamData';
 
 interface SlideChapterIntroProps {
   chapter: NarrativeChapter;
@@ -19,6 +20,19 @@ export const SlideChapterIntro = ({ chapter, onContinue }: SlideChapterIntroProp
   const chapterId = chapter.id as keyof typeof NARRATIVE_INSIGHTS;
   // Guard access to the insights map in case the chapter id isn't present.
   const insight = (NARRATIVE_INSIGHTS[chapterId] ?? { opening: '' });
+
+  // Key statistics from latest data
+  const keyStats = useMemo(() => {
+    const latest = vietnamData[vietnamData.length - 1];
+    return {
+      population: latest.population.toLocaleString(),
+      gdp: `${latest.gdpBillion} tỷ USD`,
+      hdi: latest.hdi.toFixed(3),
+      lifeExpectancy: `${latest.lifeExpectancy} tuổi`,
+      literacy: `${latest.literacyRate.toFixed(1)}%`,
+      urbanization: `${latest.urbanPopPercent.toFixed(1)}%`
+    };
+  }, []);
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -43,7 +57,7 @@ export const SlideChapterIntro = ({ chapter, onContinue }: SlideChapterIntroProp
         y: 30,
         duration: 0.8,
         ease: 'power2.out'
-      }, titleRef.current ? '-=0.5' : null);
+      }, titleRef.current ? '-=0.5' : undefined);
     }
 
     if (insightRef.current) {
@@ -113,14 +127,42 @@ export const SlideChapterIntro = ({ chapter, onContinue }: SlideChapterIntroProp
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mb-12">
           <div className="bg-primary/10 p-6 rounded-lg border border-primary/30">
-            <h3 className="font-bold text-primary mb-3">Theme</h3>
-            <p className="text-muted-foreground capitalize">{chapter.emotionalTheme}</p>
+            <Users className="w-8 h-8 text-primary mb-3" />
+            <h3 className="font-bold text-primary mb-1">Population</h3>
+            <p className="text-2xl font-semibold text-foreground">{keyStats.population}</p>
+            <p className="text-sm text-muted-foreground">2024</p>
           </div>
-          <div className="bg-secondary/10 p-6 rounded-lg border border-secondary/30">
-            <h3 className="font-bold text-secondary mb-3">Slides</h3>
-            <p className="text-muted-foreground">{chapter.slideRange[0]} - {chapter.slideRange[1]}</p>
+          <div className="bg-green-500/10 p-6 rounded-lg border border-green-500/30">
+            <TrendingUp className="w-8 h-8 text-green-600 mb-3" />
+            <h3 className="font-bold text-green-600 mb-1">GDP</h3>
+            <p className="text-2xl font-semibold text-foreground">{keyStats.gdp}</p>
+            <p className="text-sm text-muted-foreground">2024</p>
+          </div>
+          <div className="bg-blue-500/10 p-6 rounded-lg border border-blue-500/30">
+            <Heart className="w-8 h-8 text-blue-600 mb-3" />
+            <h3 className="font-bold text-blue-600 mb-1">Life Expectancy</h3>
+            <p className="text-2xl font-semibold text-foreground">{keyStats.lifeExpectancy}</p>
+            <p className="text-sm text-muted-foreground">2024</p>
+          </div>
+          <div className="bg-purple-500/10 p-6 rounded-lg border border-purple-500/30">
+            <GraduationCap className="w-8 h-8 text-purple-600 mb-3" />
+            <h3 className="font-bold text-purple-600 mb-1">Literacy Rate</h3>
+            <p className="text-2xl font-semibold text-foreground">{keyStats.literacy}</p>
+            <p className="text-sm text-muted-foreground">2024</p>
+          </div>
+          <div className="bg-orange-500/10 p-6 rounded-lg border border-orange-500/30">
+            <TrendingUp className="w-8 h-8 text-orange-600 mb-3" />
+            <h3 className="font-bold text-orange-600 mb-1">HDI</h3>
+            <p className="text-2xl font-semibold text-foreground">{keyStats.hdi}</p>
+            <p className="text-sm text-muted-foreground">2024</p>
+          </div>
+          <div className="bg-teal-500/10 p-6 rounded-lg border border-teal-500/30">
+            <Users className="w-8 h-8 text-teal-600 mb-3" />
+            <h3 className="font-bold text-teal-600 mb-1">Urbanization</h3>
+            <p className="text-2xl font-semibold text-foreground">{keyStats.urbanization}</p>
+            <p className="text-sm text-muted-foreground">2024</p>
           </div>
         </div>
 

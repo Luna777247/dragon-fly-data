@@ -1,6 +1,6 @@
 import { useEffect, useRef, useMemo } from 'react';
 import { vietnamData } from '@/data/vietnamData';
-import { LineChart, Line, BarChart, Bar, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, BarChart, Bar, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ReferenceLine, ComposedChart } from 'recharts';
 import { CustomTooltip } from '@/components/ui/custom-tooltip';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -11,11 +11,29 @@ gsap.registerPlugin(ScrollTrigger);
 export const SlideHistoricalTrends = () => {
   const containerRef = useRef<HTMLDivElement>(null);
 
+  // Historical periods with colors
+  const periods = {
+    '1960-1974': { name: 'Chiến tranh', color: '#e74c3c' },
+    '1975-1985': { name: 'Tái thiết', color: '#f39c12' },
+    '1986-1999': { name: 'Đổi mới', color: '#27ae60' },
+    '2000-2019': { name: 'Hội nhập WTO', color: '#3498db' },
+    '2020-2024': { name: 'COVID & Phục hồi', color: '#9b59b6' }
+  };
+
+  const getPeriodColor = (year: number) => {
+    if (year < 1975) return periods['1960-1974'].color;
+    if (year < 1986) return periods['1975-1985'].color;
+    if (year < 2000) return periods['1986-1999'].color;
+    if (year < 2020) return periods['2000-2019'].color;
+    return periods['2020-2024'].color;
+  };
+
   const gdpData = useMemo(() =>
     vietnamData.map(d => ({
       year: d.year,
       gdp: d.gdpBillion,
-      gdpGrowth: d.gdpGrowth
+      gdpGrowth: d.gdpGrowthRate,
+      period: getPeriodColor(d.year)
     })).filter(d => d.gdp > 0),
     []
   );
@@ -23,8 +41,8 @@ export const SlideHistoricalTrends = () => {
   const populationData = useMemo(() =>
     vietnamData.map(d => ({
       year: d.year,
-      population: d.populationMillion,
-      urbanPop: d.urbanPopulationPercent,
+      population: d.population,
+      urbanPop: d.urbanPopPercent,
       fertility: d.fertilityRate
     })).filter(d => d.population > 0),
     []
@@ -34,8 +52,8 @@ export const SlideHistoricalTrends = () => {
     vietnamData.map(d => ({
       year: d.year,
       lifeExpectancy: d.lifeExpectancy,
-      infantMortality: d.infantMortality,
-      co2Emissions: d.co2EmissionsPerCapita
+      infantMortality: d.infantMortalityRate,
+      co2Emissions: d.co2PerCapita
     })).filter(d => d.lifeExpectancy > 0),
     []
   );
@@ -43,9 +61,9 @@ export const SlideHistoricalTrends = () => {
   const educationData = useMemo(() =>
     vietnamData.map(d => ({
       year: d.year,
-      primaryCompletion: d.primaryCompletionRate,
-      literacyRate: d.literacyRate
-    })).filter(d => d.primaryCompletion > 0),
+      literacyRate: d.literacyRate,
+      meanYearsOfSchooling: d.meanYearsOfSchooling
+    })).filter(d => d.literacyRate > 0),
     []
   );
 
@@ -53,7 +71,9 @@ export const SlideHistoricalTrends = () => {
     vietnamData.map(d => ({
       year: d.year,
       unemployment: d.unemploymentRate,
-      laborForce: d.laborForceParticipation
+      agriculture: d.employmentAgriculture,
+      industry: d.employmentIndustry,
+      services: d.employmentServices
     })).filter(d => d.unemployment > 0),
     []
   );
@@ -114,38 +134,54 @@ export const SlideHistoricalTrends = () => {
           </p>
         </div>
 
+        {/* Historical Periods */}  
+        <div className="hist-section bg-white rounded-xl shadow-lg p-8 mb-8">
+          <h2 className="text-2xl font-semibold text-gray-800 mb-6 text-center">Các Giai Đoạn Lịch Sử</h2>
+          <div className="grid grid-cols-5 gap-4">
+            {Object.entries(periods).map(([period, info]) => (
+              <div key={period} className="text-center p-4 rounded-lg" style={{ backgroundColor: `${info.color}20`, border: `2px solid ${info.color}` }}>
+                <div className="font-semibold text-gray-800">{period}</div>
+                <div className="text-sm text-gray-600">{info.name}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* GDP Growth Section */}
         <div className="hist-section bg-white rounded-xl shadow-lg p-8 mb-8">
           <div className="flex items-center mb-6">
             <TrendingUp className="w-8 h-8 text-green-600 mr-3" />
-            <h2 className="text-2xl font-semibold text-gray-800">Tăng Trưởng GDP</h2>
+            <h2 className="text-2xl font-semibold text-gray-800">Tăng Trưởng GDP Việt Nam (1985-2024)</h2>
           </div>
           <div className="hist-chart h-96">
             <ResponsiveContainer width="100%" height="100%">
-              <LineChart data={gdpData}>
+              <ComposedChart data={gdpData}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="year" />
                 <YAxis yAxisId="left" />
                 <YAxis yAxisId="right" orientation="right" />
                 <Tooltip content={<CustomTooltip />} />
                 <Legend />
-                <Line
+                <Bar
                   yAxisId="left"
-                  type="monotone"
                   dataKey="gdp"
-                  stroke="#16a34a"
-                  strokeWidth={3}
-                  name="GDP (Tỷ USD)"
+                  fill="#3498db"
+                  name="GDP Total (tỷ USD)"
+                  opacity={0.7}
                 />
                 <Line
                   yAxisId="right"
                   type="monotone"
                   dataKey="gdpGrowth"
-                  stroke="#dc2626"
-                  strokeWidth={2}
-                  name="Tăng trưởng GDP (%)"
+                  stroke="#e74c3c"
+                  strokeWidth={3}
+                  name="Tốc độ tăng trưởng (%)"
+                  dot={{ fill: '#e74c3c', strokeWidth: 2, r: 4 }}
                 />
-              </LineChart>
+                <ReferenceLine x={1986} stroke="#f39c12" strokeDasharray="5 5" label={{ value: "Đổi Mới", position: "top" }} />
+                <ReferenceLine x={2007} stroke="#27ae60" strokeDasharray="5 5" label={{ value: "WTO", position: "top" }} />
+                <ReferenceLine x={2020} stroke="#9b59b6" strokeDasharray="5 5" label={{ value: "COVID-19", position: "top" }} />
+              </ComposedChart>
             </ResponsiveContainer>
           </div>
         </div>
