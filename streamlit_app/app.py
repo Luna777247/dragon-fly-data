@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from pathlib import Path
+import numpy as np
 
 # Load data
 data_path = Path(r"d:\project\dragon-fly-data\src\data\vietnam_advance.csv")
@@ -23,7 +24,8 @@ section = st.sidebar.radio("Choose Analysis", [
     "Economic Forecasting",
     "Policy Research",
     "Social Forecasting",
-    "Data Visualization"
+    "Data Visualization",
+    "Population Forecasting"
 ])
 
 if section == "Overview":
@@ -132,6 +134,121 @@ elif section == "Data Visualization":
         fig = px.bar(x=top_indicators.index, y=top_indicators.values, 
                      title=f'Top 10 Key Indicators for {latest_year}')
         st.plotly_chart(fig)
+
+elif section == "Population Forecasting":
+    st.header("Population Forecasting - Factors Influencing Vietnam's Population")
+    st.markdown("Analysis of factors affecting population growth and forecasting models")
+    
+    # Qualitative factors section
+    st.subheader("Key Factors Influencing Population")
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        st.info("**Birth Rate**\n\nNatural population growth driver")
+        st.info("**Death Rate**\n\nAffects population dynamics")
+    
+    with col2:
+        st.info("**Economic Factors**\n\nSocioeconomic development impact")
+        st.info("**Population Structure**\n\nAge distribution effects")
+    
+    with col3:
+        st.info("**Migration**\n\nInternal and international movement")
+        st.info("**Government Policies**\n\nBirth limitation and family planning")
+    
+    # Quantitative forecasting section
+    st.subheader("Population Forecasting Models")
+    
+    # Create forecast data (simulated)
+    historical_years = df['year'].values
+    historical_pop = df['population'].values / 1000000  # Convert to millions
+    
+    # Forecast years
+    forecast_years = list(range(2025, 2066))
+    
+    # Simulated forecasts using different models
+    import numpy as np
+    
+    # Simple exponential growth
+    last_pop = historical_pop[-1]
+    exp_growth = [last_pop * (1.005 ** (i+1)) for i in range(len(forecast_years))]
+    
+    # Logistic growth (simplified)
+    carrying_capacity = 120  # millions
+    logistic_growth = []
+    current = last_pop
+    for i in range(len(forecast_years)):
+        growth_rate = 0.01 * (1 - current/carrying_capacity)
+        current = current * (1 + growth_rate)
+        logistic_growth.append(current)
+    
+    # Gompertz growth (simplified)
+    gompertz_growth = []
+    current = last_pop
+    for i in range(len(forecast_years)):
+        growth_rate = 0.015 * np.exp(-0.01 * i)
+        current = current * (1 + growth_rate)
+        gompertz_growth.append(current)
+    
+    # Create combined chart
+    fig = go.Figure()
+    
+    # Historical bars (population by year)
+    fig.add_trace(go.Bar(
+        x=historical_years,
+        y=historical_pop,
+        name='Historical Population',
+        marker_color='lightblue',
+        opacity=0.7
+    ))
+    
+    # Forecast lines
+    all_years = historical_years.tolist() + forecast_years
+    
+    # Exponential
+    fig.add_trace(go.Scatter(
+        x=all_years,
+        y=historical_pop.tolist() + exp_growth,
+        mode='lines',
+        name='Exponential Forecast',
+        line=dict(color='red', dash='dash')
+    ))
+    
+    # Logistic
+    fig.add_trace(go.Scatter(
+        x=all_years,
+        y=historical_pop.tolist() + logistic_growth,
+        mode='lines',
+        name='Logistic Forecast',
+        line=dict(color='green', dash='dot')
+    ))
+    
+    # Gompertz
+    fig.add_trace(go.Scatter(
+        x=all_years,
+        y=historical_pop.tolist() + gompertz_growth,
+        mode='lines',
+        name='Gompertz Forecast',
+        line=dict(color='orange', dash='dashdot')
+    ))
+    
+    fig.update_layout(
+        title='Vietnam Population: Historical Data and Forecasting Models (1955-2065)',
+        xaxis_title='Year',
+        yaxis_title='Population (Millions)',
+        showlegend=True,
+        height=600
+    )
+    
+    st.plotly_chart(fig)
+    
+    st.markdown("""
+    **Forecasting Models:**
+    - **Exponential**: Constant growth rate
+    - **Logistic**: Growth slows as population approaches carrying capacity
+    - **Gompertz**: Growth rate decreases exponentially over time
+    
+    *Data sources: World Bank, UN Population Prospects, simulated projections*
+    """)
 
 # Footer
 st.markdown("---")
