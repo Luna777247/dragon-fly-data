@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { MILESTONE_YEARS } from '@/constants/slideConstants';
 import { Map, Users } from 'lucide-react';
 import { vietnamData } from '@/data/vietnamData';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
@@ -55,7 +56,7 @@ export const SlideRegionalDensity = () => {
   }, []);
 
   const chartData = vietnamData;
-  const milestoneYears = [1955, 1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025];
+  const milestoneYears = MILESTONE_YEARS;
   const latestData = vietnamData[vietnamData.length - 1];
 
   return (

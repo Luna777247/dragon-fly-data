@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { Users, TrendingUp } from 'lucide-react';
 import { LineChart, Line, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { useSlideAnimation } from '@/hooks/useSlideAnimation';
@@ -12,14 +12,14 @@ export const SlidePopulationDemographics = () => {
   const { allData, latestData, earliestData } = useSlideData();
   const [fullscreenChart, setFullscreenChart] = useState<string | null>(null);
 
-  const populationData = allData;
-  const demographicData = allData.map((d) => ({
+  const populationData = useMemo(() => allData, [allData]);
+  const demographicData = useMemo(() => allData.map((d) => ({
     year: d.year,
     medianAge: d.medianAge,
     fertility: d.fertilityRate,
-  }));
+  })), [allData]);
 
-  const counter = latestData.population / 1000000;
+  const counter = useMemo(() => latestData.population / 1000000, [latestData]);
 
   return (
     <div ref={containerRef} className="min-h-screen py-20 px-6 relative overflow-hidden bg-gradient-to-br from-background via-primary/5 to-background">

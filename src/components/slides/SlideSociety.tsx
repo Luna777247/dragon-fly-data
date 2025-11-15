@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { MILESTONE_YEARS } from '@/constants/slideConstants';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar } from 'recharts';
 import { vietnamData } from '@/data/vietnamData';
 import { Heart, GraduationCap, TrendingUp } from 'lucide-react';
@@ -42,7 +43,7 @@ export const SlideSociety = () => {
   }, []);
 
   const lifeExpData = vietnamData;
-  const milestoneYears = [1955, 1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025];
+  const milestoneYears = MILESTONE_YEARS;
   
   const radarData = [
     { subject: 'HDI', value: 0.84, fullMark: 1 },

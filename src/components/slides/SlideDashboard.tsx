@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useMemo } from 'react';
 import { vietnamData } from '@/data/vietnamData';
 import { LayoutDashboard, TrendingUp, Users, Briefcase, GraduationCap, Maximize2 } from 'lucide-react';
 import { LineChart, Line, BarChart, Bar, AreaChart, Area, RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
@@ -62,13 +62,15 @@ export const SlideDashboard = () => {
     return () => ctx.revert();
   }, []);
 
-  // Filter data by year range
-  const filteredData = vietnamData.filter(
-    d => d.year >= yearRange.start && d.year <= yearRange.end
-  );
+  // Filter data by year range (memoized)
+  const filteredData = useMemo(() => {
+    return vietnamData.filter(
+      d => d.year >= yearRange.start && d.year <= yearRange.end
+    );
+  }, [yearRange.start, yearRange.end]);
 
-  // Prepare chart data based on selected metric
-  const getChartData = () => {
+  // Prepare chart data based on selected metric (memoized)
+  const chartData = useMemo(() => {
     return filteredData.map(d => ({
       year: d.year,
       population: d.population / 1000000,
@@ -79,19 +81,40 @@ export const SlideDashboard = () => {
       lifeExpectancy: d.lifeExpectancy,
       gdpPerCapita: d.gdpPerCapita,
     }));
-  };
+  }, [filteredData]);
 
-  const chartData = getChartData();
+  // Radar data for latest year (guard empty slices)
+  const latestYear = useMemo(() => {
+    return filteredData.length ? filteredData[filteredData.length - 1] : null;
+  }, [filteredData]);
+  // Provide a safe fallback in case the filtered dataset is empty.
+  // This avoids runtime errors when the user moves the year sliders to an empty range.
+  const safeLatestYear = useMemo(() => {
+    if (latestYear) return latestYear;
+    if (vietnamData && vietnamData.length) return vietnamData[vietnamData.length - 1];
+    // Minimal fallback shape to avoid runtime property access errors
+    return {
+      year: 2025,
+      population: 0,
+      gdpBillion: 0,
+      urbanPopPercent: 0,
+      hdi: 0,
+      literacyRate: 0,
+      educationIndex: 0,
+      lifeExpectancy: 0,
+    } as VietnamDataPoint;
+  }, [latestYear]);
 
-  // Radar data for latest year
-  const latestYear = filteredData[filteredData.length - 1];
-  const radarData = [
-    { indicator: 'HDI', value: latestYear.hdi * 100, fullMark: 100 },
-    { indicator: 'Đô thị', value: latestYear.urbanPopPercent, fullMark: 100 },
-    { indicator: 'Biết chữ', value: latestYear.literacyRate, fullMark: 100 },
-    { indicator: 'Tuổi thọ', value: (latestYear.lifeExpectancy / 90) * 100, fullMark: 100 },
-    { indicator: 'Giáo dục', value: latestYear.educationIndex * 100, fullMark: 100 },
-  ];
+  const radarData = useMemo(() => {
+    if (!safeLatestYear) return [];
+    return [
+      { indicator: 'HDI', value: safeLatestYear.hdi * 100, fullMark: 100 },
+      { indicator: 'Đô thị', value: safeLatestYear.urbanPopPercent, fullMark: 100 },
+      { indicator: 'Biết chữ', value: safeLatestYear.literacyRate, fullMark: 100 },
+      { indicator: 'Tuổi thọ', value: (safeLatestYear.lifeExpectancy / 90) * 100, fullMark: 100 },
+      { indicator: 'Giáo dục', value: safeLatestYear.educationIndex * 100, fullMark: 100 },
+    ];
+  }, [safeLatestYear]);
 
   const filters: { id: MetricType; label: string; icon: any }[] = [
     { id: 'all', label: 'Tất cả', icon: LayoutDashboard },
@@ -245,7 +268,7 @@ export const SlideDashboard = () => {
           {/* Development Radar */}
           {(selectedMetric === 'all') && (
             <div className="dash-chart bg-card/30 backdrop-blur-sm p-6 rounded-2xl border border-border shadow-elegant">
-              <h3 className="text-xl font-bold mb-4">Chỉ Số Phát Triển {latestYear.year}</h3>
+              <h3 className="text-xl font-bold mb-4">Chỉ Số Phát Triển {safeLatestYear.year}</h3>
               <ResponsiveContainer width="100%" height={300}>
                 <RadarChart data={radarData}>
                   <PolarGrid stroke="hsl(var(--border))" />
@@ -262,19 +285,19 @@ export const SlideDashboard = () => {
         {/* Summary Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="dash-chart bg-gradient-to-br from-primary/20 to-primary/5 p-6 rounded-xl border border-primary/30">
-            <div className="text-3xl font-bold text-primary mb-2">{(latestYear.population / 1000000).toFixed(1)}M</div>
-            <div className="text-sm text-muted-foreground">Dân số {latestYear.year}</div>
+            <div className="text-3xl font-bold text-primary mb-2">{(safeLatestYear.population / 1000000).toFixed(1)}M</div>
+            <div className="text-sm text-muted-foreground">Dân số {safeLatestYear.year}</div>
           </div>
           <div className="dash-chart bg-gradient-to-br from-secondary/20 to-secondary/5 p-6 rounded-xl border border-secondary/30">
-            <div className="text-3xl font-bold text-secondary mb-2">${latestYear.gdpBillion}B</div>
-            <div className="text-sm text-muted-foreground">GDP {latestYear.year}</div>
+            <div className="text-3xl font-bold text-secondary mb-2">${safeLatestYear.gdpBillion}B</div>
+            <div className="text-sm text-muted-foreground">GDP {safeLatestYear.year}</div>
           </div>
           <div className="dash-chart bg-gradient-to-br from-accent/20 to-accent/5 p-6 rounded-xl border border-accent/30">
-            <div className="text-3xl font-bold text-accent mb-2">{latestYear.urbanPopPercent}%</div>
+            <div className="text-3xl font-bold text-accent mb-2">{safeLatestYear.urbanPopPercent}%</div>
             <div className="text-sm text-muted-foreground">Đô thị hóa</div>
           </div>
           <div className="dash-chart bg-gradient-to-br from-primary/20 to-secondary/10 p-6 rounded-xl border border-primary/30">
-            <div className="text-3xl font-bold text-primary mb-2">{(latestYear.hdi * 100).toFixed(1)}%</div>
+            <div className="text-3xl font-bold text-primary mb-2">{(safeLatestYear.hdi * 100).toFixed(1)}%</div>
             <div className="text-sm text-muted-foreground">HDI</div>
           </div>
         </div>

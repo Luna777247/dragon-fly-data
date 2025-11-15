@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
+import { MILESTONE_YEARS } from '@/constants/slideConstants';
 import { Globe, TrendingUp, Award } from 'lucide-react';
-import { parseVietnamData } from '@/data/vietnamData';
+import { vietnamData } from '@/data/vietnamData';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend, LineChart, Line } from 'recharts';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -9,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export const SlideRegional = () => {
   const containerRef = useRef<HTMLDivElement>(null);
-  const data = parseVietnamData();
+  const data = vietnamData;
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -54,7 +55,7 @@ export const SlideRegional = () => {
     medianAge: d.medianAge,
     fertility: d.fertilityRate
   }));
-  const milestoneYears = [1955, 1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025];
+  const milestoneYears = MILESTONE_YEARS;
 
   const endData = data[data.length - 1];
   const startData = data[0];

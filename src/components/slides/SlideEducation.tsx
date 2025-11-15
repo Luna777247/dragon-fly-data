@@ -1,4 +1,5 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useMemo } from 'react';
+import { MILESTONE_YEARS } from '@/constants/slideConstants';
 import { GraduationCap, BookOpen, TrendingUp } from 'lucide-react';
 import { vietnamData } from '@/data/vietnamData';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend, ComposedChart, Bar } from 'recharts';
@@ -54,10 +55,10 @@ export const SlideEducation = () => {
     return () => ctx.revert();
   }, []);
 
-  const chartData = vietnamData;
-  const milestoneYears = [1955, 1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025];
-  const latestData = vietnamData[vietnamData.length - 1];
-  const firstData = vietnamData[0];
+  const chartData = useMemo(() => vietnamData, []);
+  const milestoneYears = MILESTONE_YEARS;
+  const latestData = useMemo(() => vietnamData[vietnamData.length - 1], []);
+  const firstData = useMemo(() => vietnamData[0], []);
 
   return (
     <div ref={containerRef} className="min-h-screen flex items-center justify-center py-20 px-6">

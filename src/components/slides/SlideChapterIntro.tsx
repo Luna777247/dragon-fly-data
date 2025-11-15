@@ -17,39 +17,54 @@ export const SlideChapterIntro = ({ chapter, onContinue }: SlideChapterIntroProp
   const buttonRef = useRef<HTMLButtonElement>(null);
 
   const chapterId = chapter.id as keyof typeof NARRATIVE_INSIGHTS;
-  const insight = NARRATIVE_INSIGHTS[chapterId];
+  // Guard access to the insights map in case the chapter id isn't present.
+  const insight = (NARRATIVE_INSIGHTS[chapterId] ?? { opening: '' });
 
   useEffect(() => {
     if (!containerRef.current) return;
 
     const tl = gsap.timeline({ delay: 0.3 });
 
-    tl.from(titleRef.current, {
-      opacity: 0,
-      y: 50,
-      duration: 1,
-      ease: 'power3.out'
-    })
-    .from(descriptionRef.current, {
-      opacity: 0,
-      y: 30,
-      duration: 0.8,
-      ease: 'power2.out'
-    }, '-=0.5')
-    .from(insightRef.current, {
-      opacity: 0,
-      y: 40,
-      duration: 1,
-      ease: 'power3.out'
-    }, '-=0.5')
-    .from(buttonRef.current, {
-      opacity: 0,
-      scale: 0.9,
-      duration: 0.6,
-      ease: 'back.out(1.7)'
-    }, '-=0.3');
+    // Only animate elements that exist to avoid runtime errors when refs are missing.
+    // We chain timings where possible, but each step is conditional.
+    if (titleRef.current) {
+      tl.from(titleRef.current, {
+        opacity: 0,
+        y: 50,
+        duration: 1,
+        ease: 'power3.out'
+      });
+    }
 
-    return () => tl.kill();
+    if (descriptionRef.current) {
+      // overlap slightly with previous animation if it exists
+      tl.from(descriptionRef.current, {
+        opacity: 0,
+        y: 30,
+        duration: 0.8,
+        ease: 'power2.out'
+      }, titleRef.current ? '-=0.5' : null);
+    }
+
+    if (insightRef.current) {
+      tl.from(insightRef.current, {
+        opacity: 0,
+        y: 40,
+        duration: 1,
+        ease: 'power3.out'
+      }, (descriptionRef.current || titleRef.current) ? '-=0.5' : undefined);
+    }
+
+    if (buttonRef.current) {
+      tl.from(buttonRef.current, {
+        opacity: 0,
+        scale: 0.9,
+        duration: 0.6,
+        ease: 'back.out(1.7)'
+      }, (insightRef.current || descriptionRef.current || titleRef.current) ? '-=0.3' : undefined);
+    }
+
+  return () => { tl.kill(); };
   }, []);
 
   return (

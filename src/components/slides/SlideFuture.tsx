@@ -1,6 +1,7 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useMemo } from 'react';
 import { Sparkles, TrendingUp, AlertCircle, Target } from 'lucide-react';
-import { parseVietnamData } from '@/data/vietnamData';
+import { vietnamData } from '@/data/vietnamData';
+import { MILESTONE_YEARS } from '@/constants/slideConstants';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend, Area, AreaChart } from 'recharts';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -9,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export const SlideFuture = () => {
   const containerRef = useRef<HTMLDivElement>(null);
-  const data = parseVietnamData();
+  const data = vietnamData;
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -48,39 +49,41 @@ export const SlideFuture = () => {
 
   // Historical data + forecast
   const historicalData = data;
-  const milestoneYears = [1955, 1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025, 2030, 2035];
+  const milestoneYears = [...MILESTONE_YEARS, 2030, 2035];
   
   // Simple forecast to 2035 (linear projection)
   const lastPoint = data[data.length - 1];
   const growthRate = 0.005; // ~0.5% annual growth
   const gdpGrowth = 1.06; // 6% GDP growth
   
-  const forecastData = [
-    ...historicalData.map(d => ({
-      year: d.year,
-      population: d.population / 1000000,
-      gdp: d.gdpBillion,
-      type: 'historical'
-    })),
-    {
-      year: 2025,
-      population: lastPoint.population * (1 + growthRate) / 1000000,
-      gdp: lastPoint.gdpBillion * gdpGrowth,
-      type: 'forecast'
-    },
-    {
-      year: 2030,
-      population: lastPoint.population * Math.pow(1 + growthRate, 6) / 1000000,
-      gdp: lastPoint.gdpBillion * Math.pow(gdpGrowth, 6),
-      type: 'forecast'
-    },
-    {
-      year: 2035,
-      population: lastPoint.population * Math.pow(1 + growthRate, 11) / 1000000,
-      gdp: lastPoint.gdpBillion * Math.pow(gdpGrowth, 11),
-      type: 'forecast'
-    }
-  ];
+  const forecastData = useMemo(() => {
+    return [
+      ...historicalData.map(d => ({
+        year: d.year,
+        population: d.population / 1000000,
+        gdp: d.gdpBillion,
+        type: 'historical'
+      })),
+      {
+        year: 2025,
+        population: lastPoint.population * (1 + growthRate) / 1000000,
+        gdp: lastPoint.gdpBillion * gdpGrowth,
+        type: 'forecast'
+      },
+      {
+        year: 2030,
+        population: lastPoint.population * Math.pow(1 + growthRate, 6) / 1000000,
+        gdp: lastPoint.gdpBillion * Math.pow(gdpGrowth, 6),
+        type: 'forecast'
+      },
+      {
+        year: 2035,
+        population: lastPoint.population * Math.pow(1 + growthRate, 11) / 1000000,
+        gdp: lastPoint.gdpBillion * Math.pow(gdpGrowth, 11),
+        type: 'forecast'
+      }
+    ];
+  }, [historicalData, lastPoint, growthRate, gdpGrowth]);
 
   const forecast2030 = forecastData.find(d => d.year === 2030);
 

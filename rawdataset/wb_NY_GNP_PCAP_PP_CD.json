@@ -1,0 +1,1055 @@
+﻿[
+    {
+        "page":  1,
+        "pages":  1,
+        "per_page":  1000,
+        "total":  65,
+        "sourceid":  "2",
+        "lastupdated":  "2025-10-07"
+    },
+    {
+        "value":  [
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2024",
+                          "value":  15850,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2023",
+                          "value":  14260,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2022",
+                          "value":  13240,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2021",
+                          "value":  11430,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2020",
+                          "value":  11110,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2019",
+                          "value":  10480,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2018",
+                          "value":  9500,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2017",
+                          "value":  8620,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2016",
+                          "value":  7910,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2015",
+                          "value":  7280,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2014",
+                          "value":  7020,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2013",
+                          "value":  6530,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2012",
+                          "value":  6170,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2011",
+                          "value":  5620,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2010",
+                          "value":  5220,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2009",
+                          "value":  4890,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2008",
+                          "value":  4730,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2007",
+                          "value":  4480,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2006",
+                          "value":  4170,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2005",
+                          "value":  3840,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2004",
+                          "value":  3490,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2003",
+                          "value":  3200,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2002",
+                          "value":  2960,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2001",
+                          "value":  2780,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2000",
+                          "value":  2580,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1999",
+                          "value":  2390,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1998",
+                          "value":  2270,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1997",
+                          "value":  2160,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1996",
+                          "value":  2010,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1995",
+                          "value":  1840,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1994",
+                          "value":  1640,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1993",
+                          "value":  1490,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1992",
+                          "value":  1380,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1991",
+                          "value":  1240,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1990",
+                          "value":  1150,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1989",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1988",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1987",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1986",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1985",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1984",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1983",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1982",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1981",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1980",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1979",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1978",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1977",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1976",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1975",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1974",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1973",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1972",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1971",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1970",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1969",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1968",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1967",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1966",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1965",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1964",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1963",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1962",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1961",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.PP.CD",
+                                            "value":  "GNI per capita, PPP (current international $)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1960",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      }
+                  ],
+        "Count":  65
+    }
+]

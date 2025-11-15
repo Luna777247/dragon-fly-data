@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { DollarSign, Briefcase, TrendingUp } from 'lucide-react';
 import { LineChart, Line, AreaChart, Area, ComposedChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { useSlideAnimation } from '@/hooks/useSlideAnimation';
@@ -12,13 +12,13 @@ export const SlideEconomicDevelopment = () => {
   const { allData, latestData, earliestData } = useSlideData();
   const [fullscreenChart, setFullscreenChart] = useState<string | null>(null);
 
-  const economyData = allData;
-  const employmentData = allData.map((d) => ({
+  const economyData = useMemo(() => allData, [allData]);
+  const employmentData = useMemo(() => allData.map((d) => ({
     year: d.year,
     agriculture: d.employmentAgriculture || 0,
     industry: d.employmentIndustry || 0,
     services: d.employmentServices || 0,
-  }));
+  })), [allData]);
 
   return (
     <div ref={containerRef} className="min-h-screen py-20 px-6 relative overflow-hidden bg-gradient-to-br from-background via-secondary/5 to-primary/10">

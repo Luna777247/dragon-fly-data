@@ -1,0 +1,1055 @@
+﻿[
+    {
+        "page":  1,
+        "pages":  1,
+        "per_page":  1000,
+        "total":  65,
+        "sourceid":  "2",
+        "lastupdated":  "2025-10-07"
+    },
+    {
+        "value":  [
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2024",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2023",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2022",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2021",
+                          "value":  2992.41537543546,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2020",
+                          "value":  2898.32779254381,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2019",
+                          "value":  2788.68575249066,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2018",
+                          "value":  2612.74734206203,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2017",
+                          "value":  2375.67591177314,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2016",
+                          "value":  2203.40076897206,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2015",
+                          "value":  2079.35905774231,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2014",
+                          "value":  2051.71374763876,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2013",
+                          "value":  1888.89055203514,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2012",
+                          "value":  1725.80835488176,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2011",
+                          "value":  1527.12297100135,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2010",
+                          "value":  1318.75979228789,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2009",
+                          "value":  935.394859183085,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2008",
+                          "value":  887.39597730272,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2007",
+                          "value":  716.621697255939,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2006",
+                          "value":  617.712722283293,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2005",
+                          "value":  552.121051538184,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2004",
+                          "value":  449.331959570708,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2003",
+                          "value":  417.981614925993,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2002",
+                          "value":  382.453450873383,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2001",
+                          "value":  363.339554101966,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2000",
+                          "value":  349.760105578554,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1999",
+                          "value":  338.812475250495,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1998",
+                          "value":  333.381938712625,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1997",
+                          "value":  334.519624695047,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1996",
+                          "value":  313.596524197923,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1995",
+                          "value":  270.623224653685,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1994",
+                          "value":  210.810639136464,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1993",
+                          "value":  170.316596635481,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1992",
+                          "value":  128.837328844399,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1991",
+                          "value":  127.031919834998,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1990",
+                          "value":  83.9230358669634,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1989",
+                          "value":  92.975226653232,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1988",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1987",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1986",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1985",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1984",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1983",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1982",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1981",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1980",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1979",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1978",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1977",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1976",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1975",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1974",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1973",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1972",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1971",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1970",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1969",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1968",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1967",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1966",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1965",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1964",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1963",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1962",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1961",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.ADJ.NNTY.PC.CD",
+                                            "value":  "Adjusted net national income per capita (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1960",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      }
+                  ],
+        "Count":  65
+    }
+]

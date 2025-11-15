@@ -1,0 +1,1055 @@
+﻿[
+    {
+        "page":  1,
+        "pages":  1,
+        "per_page":  1000,
+        "total":  65,
+        "sourceid":  "2",
+        "lastupdated":  "2025-10-07"
+    },
+    {
+        "value":  [
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2024",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2023",
+                          "value":  13.831,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2022",
+                          "value":  14.272,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2021",
+                          "value":  14.735,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2020",
+                          "value":  15.234,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2019",
+                          "value":  15.513,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2018",
+                          "value":  15.438,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2017",
+                          "value":  16.764,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2016",
+                          "value":  17.313,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2015",
+                          "value":  18.498,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2014",
+                          "value":  18.671,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2013",
+                          "value":  17.888,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2012",
+                          "value":  17.892,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2011",
+                          "value":  17.588,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2010",
+                          "value":  17.409,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2009",
+                          "value":  17.528,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2008",
+                          "value":  17.664,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2007",
+                          "value":  17.537,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2006",
+                          "value":  17.249,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2005",
+                          "value":  17.369,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2004",
+                          "value":  17.996,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2003",
+                          "value":  18.151,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2002",
+                          "value":  18.095,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2001",
+                          "value":  18.123,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2000",
+                          "value":  18.018,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1999",
+                          "value":  17.591,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1998",
+                          "value":  18.254,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1997",
+                          "value":  19.573,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1996",
+                          "value":  21.012,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1995",
+                          "value":  22.727,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1994",
+                          "value":  24.452,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1993",
+                          "value":  26.094,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1992",
+                          "value":  27.342,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1991",
+                          "value":  28.489,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1990",
+                          "value":  28.896,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1989",
+                          "value":  29.041,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1988",
+                          "value":  28.713,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1987",
+                          "value":  29.23,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1986",
+                          "value":  30.717,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1985",
+                          "value":  32.195,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1984",
+                          "value":  33.319,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1983",
+                          "value":  33.68,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1982",
+                          "value":  33.584,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1981",
+                          "value":  33.428,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1980",
+                          "value":  33.499,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1979",
+                          "value":  34.062,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1978",
+                          "value":  34.253,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1977",
+                          "value":  34.558,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1976",
+                          "value":  34.852,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1975",
+                          "value":  35.086,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1974",
+                          "value":  35.484,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1973",
+                          "value":  36.891,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1972",
+                          "value":  36.371,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1971",
+                          "value":  35.679,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1970",
+                          "value":  35.187,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1969",
+                          "value":  35.077,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1968",
+                          "value":  35.221,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1967",
+                          "value":  34.575,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1966",
+                          "value":  35.441,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1965",
+                          "value":  37.087,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1964",
+                          "value":  38.561,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1963",
+                          "value":  39.952,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1962",
+                          "value":  39.972,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1961",
+                          "value":  35.639,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.DYN.CBRT.IN",
+                                            "value":  "Birth rate, crude (per 1,000 people)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1960",
+                          "value":  41.589,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      }
+                  ],
+        "Count":  65
+    }
+]

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { BarChart, Bar, LineChart, Line, RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { Sparkles, TrendingUp } from 'lucide-react';
 import { useSlideAnimation } from '@/hooks/useSlideAnimation';
@@ -14,21 +14,21 @@ export const SlideDataExplorer = () => {
   const keyYearData = getMilestoneData(KEY_YEARS);
   const latestYear = latestData.year;
 
-  const radarData = [
+  const radarData = useMemo(() => [
     { indicator: 'HDI', value: latestData.hdi * 100, fullMark: 100 },
     { indicator: 'Đô thị', value: latestData.urbanPopPercent, fullMark: 100 },
     { indicator: 'Biết chữ', value: latestData.literacyRate, fullMark: 100 },
     { indicator: 'Tuổi thọ', value: (latestData.lifeExpectancy / 90) * 100, fullMark: 100 },
     { indicator: 'Giáo dục', value: latestData.educationIndex * 100, fullMark: 100 },
-  ];
+  ], [latestData]);
 
-  const comparisonData = keyYearData.map((d) => ({
+  const comparisonData = useMemo(() => keyYearData.map((d) => ({
     year: d.year.toString(),
     population: Math.round(d.population / 1000000),
     gdp: Math.round(d.gdpBillion),
     hdi: (d.hdi * 100).toFixed(0),
     literacy: d.literacyRate,
-  }));
+  })), [keyYearData]);
 
   const tabs = [
     { id: 'overview', label: 'Tổng Quan', icon: '📊' },

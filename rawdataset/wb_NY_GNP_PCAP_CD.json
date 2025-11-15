@@ -1,0 +1,1055 @@
+﻿[
+    {
+        "page":  1,
+        "pages":  1,
+        "per_page":  1000,
+        "total":  65,
+        "sourceid":  "2",
+        "lastupdated":  "2025-10-07"
+    },
+    {
+        "value":  [
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2024",
+                          "value":  4490,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2023",
+                          "value":  4150,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2022",
+                          "value":  3980,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2021",
+                          "value":  3540,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2020",
+                          "value":  3400,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2019",
+                          "value":  3290,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2018",
+                          "value":  3020,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2017",
+                          "value":  2680,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2016",
+                          "value":  2560,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2015",
+                          "value":  2460,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2014",
+                          "value":  2390,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2013",
+                          "value":  2200,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2012",
+                          "value":  1980,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2011",
+                          "value":  1630,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2010",
+                          "value":  1370,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2009",
+                          "value":  1120,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2008",
+                          "value":  1000,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2007",
+                          "value":  860,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2006",
+                          "value":  740,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2005",
+                          "value":  650,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2004",
+                          "value":  550,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2003",
+                          "value":  480,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2002",
+                          "value":  430,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2001",
+                          "value":  410,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2000",
+                          "value":  390,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1999",
+                          "value":  370,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1998",
+                          "value":  360,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1997",
+                          "value":  350,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1996",
+                          "value":  310,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1995",
+                          "value":  260,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1994",
+                          "value":  200,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1993",
+                          "value":  170,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1992",
+                          "value":  140,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1991",
+                          "value":  110,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1990",
+                          "value":  130,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1989",
+                          "value":  220,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1988",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1987",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1986",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1985",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1984",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1983",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1982",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1981",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1980",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1979",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1978",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1977",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1976",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1975",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1974",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1973",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1972",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1971",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1970",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1969",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1968",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1967",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1966",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1965",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1964",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1963",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1962",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1961",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "NY.GNP.PCAP.CD",
+                                            "value":  "GNI per capita, Atlas method (current US$)"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1960",
+                          "value":  null,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      }
+                  ],
+        "Count":  65
+    }
+]

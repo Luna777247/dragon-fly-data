@@ -1,0 +1,1055 @@
+﻿[
+    {
+        "page":  1,
+        "pages":  1,
+        "per_page":  1000,
+        "total":  65,
+        "sourceid":  "2",
+        "lastupdated":  "2025-10-07"
+    },
+    {
+        "value":  [
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2024",
+                          "value":  40592000,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2023",
+                          "value":  39619045,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2022",
+                          "value":  38642203,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2021",
+                          "value":  37646783,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2020",
+                          "value":  36622770,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2019",
+                          "value":  35592811,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2018",
+                          "value":  34567483,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2017",
+                          "value":  33514669,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2016",
+                          "value":  32439440,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2015",
+                          "value":  31382614,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2014",
+                          "value":  30359692,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2013",
+                          "value":  29371952,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2012",
+                          "value":  28421328,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2011",
+                          "value":  27495952,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2010",
+                          "value":  26601234,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2009",
+                          "value":  25732231,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2008",
+                          "value":  24810004,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2007",
+                          "value":  23838857,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2006",
+                          "value":  22914983,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2005",
+                          "value":  22121703,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2004",
+                          "value":  21436848,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2003",
+                          "value":  20759781,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2002",
+                          "value":  20095582,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2001",
+                          "value":  19443220,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "2000",
+                          "value":  18805519,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1999",
+                          "value":  18169382,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1998",
+                          "value":  17598284,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1997",
+                          "value":  17046205,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1996",
+                          "value":  16506289,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1995",
+                          "value":  15970590,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1994",
+                          "value":  15427835,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1993",
+                          "value":  14882440,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1992",
+                          "value":  14338766,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1991",
+                          "value":  13799104,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1990",
+                          "value":  13269257,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1989",
+                          "value":  12759549,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1988",
+                          "value":  12412794,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1987",
+                          "value":  12124786,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1986",
+                          "value":  11843108,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1985",
+                          "value":  11552848,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1984",
+                          "value":  11251529,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1983",
+                          "value":  10949275,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1982",
+                          "value":  10656787,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1981",
+                          "value":  10376298,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1980",
+                          "value":  10102770,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1979",
+                          "value":  9851772,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1978",
+                          "value":  9585605,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1977",
+                          "value":  9290656,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1976",
+                          "value":  9002915,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1975",
+                          "value":  8730419,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1974",
+                          "value":  8485519,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1973",
+                          "value":  8254905,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1972",
+                          "value":  8030922,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1971",
+                          "value":  7808969,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1970",
+                          "value":  7589967,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1969",
+                          "value":  7268659,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1968",
+                          "value":  6965080,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1967",
+                          "value":  6671673,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1966",
+                          "value":  6382088,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1965",
+                          "value":  6097061,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1964",
+                          "value":  5815419,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1963",
+                          "value":  5539044,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1962",
+                          "value":  5269809,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1961",
+                          "value":  5021716,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL",
+                                            "value":  "Urban population"
+                                        },
+                          "country":  {
+                                          "id":  "VN",
+                                          "value":  "Viet Nam"
+                                      },
+                          "countryiso3code":  "VNM",
+                          "date":  "1960",
+                          "value":  4782194,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      }
+                  ],
+        "Count":  65
+    }
+]

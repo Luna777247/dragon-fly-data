@@ -1,0 +1,1055 @@
+﻿[
+    {
+        "page":  1,
+        "pages":  1,
+        "per_page":  1000,
+        "total":  65,
+        "sourceid":  "2",
+        "lastupdated":  "2025-10-07"
+    },
+    {
+        "value":  [
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2024",
+                          "value":  57.7006387971638,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2023",
+                          "value":  57.2603934495146,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2022",
+                          "value":  56.815715402616,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2021",
+                          "value":  56.3752739801048,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2020",
+                          "value":  55.9623738261611,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2019",
+                          "value":  55.5315178075519,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2018",
+                          "value":  55.0928852332806,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2017",
+                          "value":  54.6501253213613,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2016",
+                          "value":  54.1987359505442,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2015",
+                          "value":  53.7372524306533,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2014",
+                          "value":  53.2720421527374,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2013",
+                          "value":  52.8176002224882,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2012",
+                          "value":  52.3653340141834,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2011",
+                          "value":  51.9239897157904,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2010",
+                          "value":  51.4781088042592,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2009",
+                          "value":  50.9982568321664,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2008",
+                          "value":  50.5079440259338,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2007",
+                          "value":  50.0095492883941,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2006",
+                          "value":  49.5243255576513,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2005",
+                          "value":  49.0288904197989,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2004",
+                          "value":  48.5246693011157,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2003",
+                          "value":  48.0243050585955,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2002",
+                          "value":  47.5301749848121,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2001",
+                          "value":  47.0391420916467,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "2000",
+                          "value":  46.5947279272757,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1999",
+                          "value":  46.2157291499285,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1998",
+                          "value":  45.8474044437261,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1997",
+                          "value":  45.4841675554663,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1996",
+                          "value":  45.1286132494186,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1995",
+                          "value":  44.7775946824693,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1994",
+                          "value":  44.4218451583491,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1993",
+                          "value":  44.0639006806526,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1992",
+                          "value":  43.7088009082786,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1991",
+                          "value":  43.3481589451324,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1990",
+                          "value":  42.9865121941101,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1989",
+                          "value":  42.6293956605706,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1988",
+                          "value":  42.2724834691009,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1987",
+                          "value":  41.905895525848,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1986",
+                          "value":  41.5386821435824,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1985",
+                          "value":  41.1746251998605,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1984",
+                          "value":  40.816257984505,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1983",
+                          "value":  40.4611417424096,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1982",
+                          "value":  40.1191962445924,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1981",
+                          "value":  39.7412674893274,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1980",
+                          "value":  39.316794539441,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1979",
+                          "value":  38.9065293840654,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1978",
+                          "value":  38.5035933448801,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1977",
+                          "value":  38.1671438425655,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1976",
+                          "value":  37.908177647821,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1975",
+                          "value":  37.6565959291493,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1974",
+                          "value":  37.4304887811548,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1973",
+                          "value":  37.1715253681946,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1972",
+                          "value":  36.9422697332405,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1971",
+                          "value":  36.7327552799716,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1970",
+                          "value":  36.5355531621223,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1969",
+                          "value":  36.3478850692389,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1968",
+                          "value":  36.1511696364289,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1967",
+                          "value":  35.9458745314618,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1966",
+                          "value":  35.7366419321331,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1965",
+                          "value":  35.5400946352421,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1964",
+                          "value":  35.324654158142,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1963",
+                          "value":  34.9418512614261,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1962",
+                          "value":  34.5665624881,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1961",
+                          "value":  34.1368087915671,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      },
+                      {
+                          "indicator":  {
+                                            "id":  "SP.URB.TOTL.IN.ZS",
+                                            "value":  "Urban population (% of total population)"
+                                        },
+                          "country":  {
+                                          "id":  "1W",
+                                          "value":  "World"
+                                      },
+                          "countryiso3code":  "WLD",
+                          "date":  "1960",
+                          "value":  33.6513215497821,
+                          "unit":  "",
+                          "obs_status":  "",
+                          "decimal":  0
+                      }
+                  ],
+        "Count":  65
+    }
+]
