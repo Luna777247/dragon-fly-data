@@ -21,6 +21,11 @@ const lazySlides = {
   SlideRegional: lazy(() => import('@/components/slides/SlideRegional').then((m) => ({ default: m.SlideRegional }))),
   SlideFuture: lazy(() => import('@/components/slides/SlideFuture').then((m) => ({ default: m.SlideFuture }))),
   SlideConclusion: lazy(() => import('@/components/slides/SlideConclusion').then((m) => ({ default: m.SlideConclusion }))),
+  SlideHistoricalTrends: lazy(() => import('@/components/slides/SlideHistoricalTrends').then((m) => ({ default: m.SlideHistoricalTrends }))),
+  SlideEconomicForecasting: lazy(() => import('@/components/slides/SlideEconomicForecasting').then((m) => ({ default: m.SlideEconomicForecasting }))),
+  SlidePolicyResearch: lazy(() => import('@/components/slides/SlidePolicyResearch').then((m) => ({ default: m.SlidePolicyResearch }))),
+  SlideSocialForecasting: lazy(() => import('@/components/slides/SlideSocialForecasting').then((m) => ({ default: m.SlideSocialForecasting }))),
+  SlideDataVisualization: lazy(() => import('@/components/slides/SlideDataVisualization').then((m) => ({ default: m.SlideDataVisualization }))),
 };
 
 export const slidesConfig: SlideConfig[] = [
@@ -38,5 +43,10 @@ export const slidesConfig: SlideConfig[] = [
   { component: lazySlides.SlideEnvironment, title: 'Môi Trường' },
   { component: lazySlides.SlideRegional, title: 'Khu Vực' },
   { component: lazySlides.SlideFuture, title: 'Tương Lai' },
+  { component: lazySlides.SlideHistoricalTrends, title: 'Xu Hướng Lịch Sử' },
+  { component: lazySlides.SlideEconomicForecasting, title: 'Dự Báo Kinh Tế' },
+  { component: lazySlides.SlidePolicyResearch, title: 'Nghiên Cứu Chính Sách' },
+  { component: lazySlides.SlideSocialForecasting, title: 'Dự Báo Xã Hội' },
+  { component: lazySlides.SlideDataVisualization, title: 'Trực Quan Hóa Dữ Liệu' },
   { component: lazySlides.SlideConclusion, title: 'Kết Luận' },
 ];
