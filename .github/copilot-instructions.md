@@ -1,7 +1,7 @@
 # Vietnam Data Story - AI Agent Instructions
 
 ## Project Overview
-Interactive data visualization of Vietnam's 70-year development (1955-2025) built with React/TypeScript/Vite. Combines 72 socioeconomic indicators into an animated slide presentation with GSAP animations and Recharts visualizations.
+Interactive data visualization of Vietnam's 70-year development (1955-2025) built with React/TypeScript/Vite. Combines 72 socioeconomic indicators into an animated slide presentation with GSAP animations and Recharts visualizations. Includes Jupyter notebooks in `notebooks/` for data analysis corresponding to slide visualizations.
 
 ## Critical Architecture Decisions
 
@@ -16,7 +16,7 @@ import csvRawData from './vietnam_advance.csv?raw';  // Static import
 export const vietnamData = parseCSVToData(csvRawData); // Parsed once, cached
 ```
 
-### Lazy Loading Architecture (15 Slides)
+### Lazy Loading Architecture (20 Slides)
 All slides are code-split using React.lazy() in `src/config/slidesConfig.ts`. New slides MUST follow this pattern:
 ```typescript
 const lazySlides = {
@@ -185,6 +185,7 @@ gsap.from('.element', { opacity: 0 });  // BAD: orphaned ScrollTrigger
 ❌ **Don't** add dependencies to GSAP animation `useEffect` deps arrays unless absolutely necessary (causes re-registration).
 
 ## Documentation Map
+- `DATA_COLLECTION_REPORT.md`: Comprehensive data pipeline documentation (63 scripts, 7 sources, validation rules)
 - `rawdataset/DATA_QUALITY_FINAL_REPORT.md`: Data validation audit (79 fixes, 100% valid)
 - `IMPROVEMENTS.md`: Code quality enhancements (lazy loading, type safety)
 - `ENHANCEMENTS.md`: Visual design & narrative structure decisions
